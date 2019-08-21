@@ -1,6 +1,26 @@
-
 ---
 title: "Gallery"
 ---
+ ***
 
+### CNS 2019 -San Francisco, CA
+
+![](imgs/2.jpg)
+
+***
+
+### Psychonomics 2019 -New Orleans, LA
+
+![](imgs/4.jpeg)
+![](imgs/7.jpeg)
+
+***
+
+### SFN 2018 -San Diego, CA
+
+![](imgs/5.jpeg)
+
+![](imgs/6.jpeg)
+
+***
 
