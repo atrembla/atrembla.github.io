@@ -5,9 +5,11 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "About Me"
-      href: about.html
     - text: "CV"
       href: CV.html
+    - text: "Papers"
+      href: Papers.html
     - text: "Posters"
       href: Posters.html
+    - text: "Gallery"
+      href: Gallery.html
