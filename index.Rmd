@@ -4,7 +4,7 @@ title: "Welcome"
 ---
 ***
 
-Hi! I'm Alex, a lab manager in [Brice Kuhl's](https://kuhllab.com/) lab at the [_University of Oregon_](https://www.uoregon.edu/).
+Hi! I'm Alex, [Brice Kuhl's](https://kuhllab.com/) lab manager at the [_University of Oregon_](https://www.uoregon.edu/).
 
 
 I am currently working on collecting fMRI and EEG data. I am learning MatLab for data collection and analysis. Outside the lab, I enjoy kickboxing, cooking, and outdoor activities.
@@ -14,3 +14,4 @@ You can contact me [here](mailto:atrembla@uoregon.edu) or find me on [LinkedIn](
 
 ![](imgs/1.jpg)
 
+***
