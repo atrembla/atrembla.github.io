@@ -3,51 +3,28 @@ title: "Gallery"
 ---
  ***
 
-### SFN 2019 - Chicago, IL
 
-![](imgs/11.jpg)
+### Snow Shoeing 2020 -Salt Creek Falls, OR
 
-![](imgs/12.jpg)
+![](imgs/18.jpg)
 
-![](imgs/15.jpg)
-
-![](imgs/14.jpg)
-
-![](imgs/13.jpg)
 
 ***
 
-### Oregon Memory Group Happy Hour - Eugene, OR
-
-![](imgs/97.jpeg)
-
-***
-
-### Lab Coast Trip - Yahats, OR
-
-![](imgs/98.jpeg)
-
-***
-
-### Lab Photo 2019 - Eugene, OR
+### Lab Photo 2019 -Eugene, OR
 
 ![](imgs/10.jpg)
 
+
 ***
 
-### CNS 2019 - San Francisco, CA
+### CNS 2019 -San Francisco, CA
 
 ![](imgs/2.jpg)
 
 ***
 
-### Sweet Cheeks Winery Trip - Eugene, OR
-
-![](imgs/99.jpeg)
-
-***
-
-### Psychonomics 2018 - New Orleans, LA
+### Psychonomics 2018 -New Orleans, LA
 
 ![](imgs/4.jpeg)
 
@@ -55,7 +32,7 @@ title: "Gallery"
 
 ***
 
-### SFN 2018 - San Diego, CA
+### SFN 2018 -San Diego, CA
 
 ![](imgs/5.jpeg)
 
