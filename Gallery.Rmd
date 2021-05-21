@@ -12,7 +12,7 @@ title: "Gallery"
 
 ### SFN 2019 -Chicago, IL
 
-![](imgs/15.jpg)
+![](imgs/17.jpg)
 
 ![](imgs/11.jpg)
 
@@ -37,6 +37,7 @@ title: "Gallery"
 ### Devil's Punchbowl 2019 -Otter Rock, OR
 
 ![](imgs/98.jpeg)
+
 ***
 
 ### CNS 2019 -San Francisco, CA
