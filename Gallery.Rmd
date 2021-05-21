@@ -11,6 +11,17 @@ title: "Gallery"
 
 ***
 
+### Snow Shoeing 2020 -Salt Creek Falls, OR
+
+![](imgs/15.jpg)
+![](imgs/11.jpg)
+![](imgs/13.jpg)
+![](imgs/14.jpg)
+
+
+
+*** 
+
 ### Lab Photo 2019 -Eugene, OR
 
 ![](imgs/10.jpg)
@@ -18,7 +29,17 @@ title: "Gallery"
 
 ***
 
-### CNS 2019 -San Francisco, CA
+### PublicHouse Happy Hour 2019 -Springfield, OR
+
+![](imgs/97.jpeg)
+
+
+***### Devil's Punchbowl 2019 -Otter Rock, OR
+
+![](imgs/98.jpeg)
+
+
+***### CNS 2019 -San Francisco, CA
 
 ![](imgs/2.jpg)
 
@@ -29,6 +50,13 @@ title: "Gallery"
 ![](imgs/4.jpeg)
 
 ![](imgs/7.jpeg)
+
+***
+
+### Sarver Winery 2019 -Eugene, OR
+
+![](imgs/99.jpeg)
+
 
 ***
 
