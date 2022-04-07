@@ -3,6 +3,30 @@ title: "Gallery"
 ---
  ***
 
+### BPP Lab Photo 2022 -Stanford, CA
+
+![](imgs/23.jpg)
+
+***
+
+### Inge's Baby Shower 2022 -Mountain View, CA
+
+![](imgs/25.jpeg)
+
+***
+
+### Team Lunch 2022 -Palo Alto, CA
+
+![](imgs/26.jpeg)
+
+***
+
+### Van Gogh Yoga 2021 -San Francisco, CA
+
+![](imgs/24.jpeg)
+
+***
+
 ### Wu Tsai Neurosciences Institute 2021 -Palo Alto, CA
 
 ![](imgs/22.jpeg)
