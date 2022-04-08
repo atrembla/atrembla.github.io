@@ -61,7 +61,7 @@ title: "Gallery"
 
 ***
 
-### SFN 2019 -Chicago, IL
+### Society for Neuroscience Conference 2019 -Chicago, IL
 
 ![](imgs/17.jpg)
 
@@ -76,6 +76,12 @@ title: "Gallery"
 ### Lab Photo 2019 -Eugene, OR
 
 ![](imgs/10.jpg)
+*** 
+
+### University of Oregon Headshot 2019 -Eugene, OR
+
+![](imgs/1.jpg)
+
 
 ***
 
@@ -91,7 +97,7 @@ title: "Gallery"
 
 ***
 
-### CNS 2019 -San Francisco, CA
+### Cognitive Neuroscience Society Conference 2019 -San Francisco, CA
 
 ![](imgs/2.jpg)
 
@@ -111,7 +117,7 @@ title: "Gallery"
 
 ***
 
-### SFN 2018 -San Diego, CA
+### Society for Neuroscience Conference 2018 -San Diego, CA
 
 ![](imgs/5.jpeg)
 
