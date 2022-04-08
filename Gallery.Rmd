@@ -3,43 +3,49 @@ title: "Gallery"
 ---
  ***
 
-### BPP Lab Photo 2022 -Stanford, CA
+### BPP Lab Photo 2022 - Stanford, CA
 
 ![](imgs/23.jpg)
 
 ***
 
-### Inge's Baby Shower 2022 -Mountain View, CA
+### Inge's Baby Shower 2022 - Mountain View, CA
 
 ![](imgs/25.jpeg)
 
 ***
 
-### Team Lunch 2022 -Palo Alto, CA
+### Balcony Garden 2022 - San Francisco, CA
+
+![](imgs/27.jpeg)
+
+***
+
+### Team Lunch 2022 - Palo Alto, CA
 
 ![](imgs/26.jpeg)
 
 ***
 
-### Van Gogh Yoga 2021 -San Francisco, CA
+### Van Gogh Yoga 2021 - San Francisco, CA
 
 ![](imgs/24.jpeg)
 
 ***
 
-### Wu Tsai Neurosciences Institute 2021 -Palo Alto, CA
+### Wu Tsai Neurosciences Institute 2021 - Palo Alto, CA
 
 ![](imgs/22.jpeg)
 
 ***
 
-### Lauren Heathcote's Goodbye Party 2021 -Palo Alto, CA
+### Lauren Heathcote's Goodbye Party 2021 - Palo Alto, CA
 
 ![](imgs/21.jpg)
 
 ***
 
-### Stanford University Welcome Event 2021 -Palo Alto, CA
+### Stanford University Welcome Event 2021 - Palo Alto, CA
 
 ![](imgs/19.jpg)
 
@@ -48,20 +54,20 @@ title: "Gallery"
 ***
 
 
-### Crissy Fields -San Francisco, CA
+### Crissy Fields - San Francisco, CA
 
 ![](imgs/18a.jpeg)
 
 ***
 
 
-### Snow Shoeing 2020 -Salt Creek Falls, OR
+### Snow Shoeing 2020 - Salt Creek Falls, OR
 
 ![](imgs/18.jpg)
 
 ***
 
-### Society for Neuroscience Conference 2019 -Chicago, IL
+### Society for Neuroscience Conference 2019 - Chicago, IL
 
 ![](imgs/17.jpg)
 
@@ -73,37 +79,37 @@ title: "Gallery"
 
 *** 
 
-### Lab Photo 2019 -Eugene, OR
+### Lab Photo 2019 - Eugene, OR
 
 ![](imgs/10.jpg)
 *** 
 
-### University of Oregon Headshot 2019 -Eugene, OR
+### University of Oregon Headshot 2019 - Eugene, OR
 
 ![](imgs/1.jpg)
 
 
 ***
 
-### PublicHouse Happy Hour 2019 -Springfield, OR
+### PublicHouse Happy Hour 2019 - Springfield, OR
 
 ![](imgs/97.jpeg)
 
 ***
 
-### Devil's Punchbowl 2019 -Otter Rock, OR
+### Devil's Punchbowl 2019 - Otter Rock, OR
 
 ![](imgs/98.jpeg)
 
 ***
 
-### Cognitive Neuroscience Society Conference 2019 -San Francisco, CA
+### Cognitive Neuroscience Society Conference 2019 - San Francisco, CA
 
 ![](imgs/2.jpg)
 
 ***
 
-### Psychonomics 2018 -New Orleans, LA
+### Psychonomics 2018 - New Orleans, LA
 
 ![](imgs/4.jpeg)
 
@@ -111,13 +117,13 @@ title: "Gallery"
 
 ***
 
-### Sarver Winery 2019 -Eugene, OR
+### Sarver Winery 2019 - Eugene, OR
 
 ![](imgs/99.jpeg)
 
 ***
 
-### Society for Neuroscience Conference 2018 -San Diego, CA
+### Society for Neuroscience Conference 2018 - San Diego, CA
 
 ![](imgs/5.jpeg)
 
