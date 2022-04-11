@@ -95,6 +95,13 @@ __Conclusion__: Collectively, these findings provide a compelling account of how
 
 ![](pdfs/Tremblay-McGawEtal19_CNS_FINAL.JPEG)
 
+__Background__: Recent memory decisions can create lingering biases-either towards encoding or retrieval-that influence how new stimuli are processed, and, ultimately remembered (Duncan et al., 2012). 
+
+__Method__: Here, we tested whether these biases can be decoded from patterns of neural activity (Richter et al., 2016) and whether decoded evidence of memory biases predicts how new events will be remembered. In a behavioral study (n = 18), participants were first familiarized with a series of common objects. Afterwards, subjects completed a continuous recognition task that included 'old' and 'new' objects. The order of stimulus presentation was controlled such that half of the new objects were preceded by an old object and half were preceded by a new object. Following continuous recognition, participants completed a post-test that required discriminating objects from the continuous recognition task vs. perceptually similar lures. 
+
+__Results__: Critically, new objects from the critical recognition task were more likely to be subsequently remembered (at post-test) if they had been preceded by a new object than if they had been preceded by an old object. That is, memory formation for new stimuli was influenced by lingering encoding/retrieval biases from the prior trial (Duncan et al., 2012). In an EEG version of the study (n = 8), we show that (1) encoding vs. retrieval states can be decoded from spectral EEG patterns and (2) these decoding measures reflect biases induced by prior trials. 
+
+__Conclusion__: Collectively, these findings provide a critical link between behavioral and neural measures of memory biases induced by recent experience.
 
 ***
 
