@@ -3,6 +3,12 @@ title: "Publications"
 ---
 ***
 
+__Tremblay-McGaw, A.G.__, Biggs, E.E., Timmers, I., Moulton, E., & Simons, L.E., (in preparation). The role of the cerebellum in threat learning in youth with chronic pain.
+
+Hess, C.W., Choate, E.S., __Tremblay-McGaw, A.G.__, Van Orden, A.R., Menendez, M., Boothroyd, D.B., Griffin, A., Caruso, T., Stinson, J., Weisman, A., Koeppen, K., & Simons, L.E., (in preparation). Virtual Reality Augmented Physical Therapy for Chronic Pain in Youth: Protocol for a randomized controlled trial enhanced with single case experimental design .
+
+Timmers, I., Bruckert, L., Biggs, E.E., __Tremblay-McGaw, A.G.__, Borsook, D., Zhang, H., & Simons, L.E. (in preparation). A comprehensive interrogation of neurite microstructure in youth with chronic pain: multi-shell diffusion weighted imaging.
+
 Chanales, A.J.H., __Tremblay-McGaw, A.G.__, Drascher, M.L., & Kuhl, B.A. (2020). Adaptive Repulsion of Long-Term Memory Representations Is Triggered by Event Similarity. Psychological Science. 32 (5), 705-720. [PDF](pdfs/ChanalesEtal2021.pdf)
 
 __Abstract__
