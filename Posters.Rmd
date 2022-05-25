@@ -39,7 +39,7 @@ __Relevance for Patient Care__: Taken together, understanding mechanistically ho
 
 ### Psychological Science Annual Convention 2022 - Chicago, IL
 
-### _Coming Soon!_
+![](pdfs/APS_ATM.JPEG)
 
 __Background__: Chronic pain is associated with widespread neuroplasticity, which may play a crucial role in maintaining the disorder. Previous research in adults has identified white matter alterations in several chronic pain types - even predicting chronification. However, these studies are lacking in youths, yet necessary to understand how structural changes in pain-related networks occur and persist into adulthood. In this study, we examined white matter microstructure in a pediatric pain population, and explored how this microstructure relates to key individual differences, namely the level of experienced disability and pain-related catastrophic thinking. We implemented the multi-compartment modeling approach neurite orientation dispersion and density imaging (NODDI), shown to be more specific to the traditional diffusion tensor imaging (DTI) approach, deriving more biologically informative indices.
 
