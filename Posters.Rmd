@@ -5,7 +5,7 @@ title: "Posters"
 
 ### IASP World Congress on Pain 2022 - Toronto, Canada
 
-### _Coming Soon!_
+![](pdfs/SPRINTRep_ATM.JPEG)
 
 __Background__: The purpose of clinical research is to further our understanding of the etiology, maintenance, and underlying mechanisms in psychopathology and disease, to be better able to prevent, diagnose, and treat such conditions. Such research requires extensive screening of potential participants to confirm eligibility before recruitment or participation in the study. However, to truly understand the disorder or disease better, experimental research focusing on understanding these underlying mechanisms relies heavily on the participation and study of a representative sample of individuals living with the disorder. For the results of experimental research to be as applicable and generalizable as possible, it is necessary to obtain representative samples from the general population. 
 
@@ -21,7 +21,7 @@ __Relevance to Patient Care__: Future directions can include, but are not limite
 
 ### IASP World Congress on Pain 2022 - Toronto, Canada
 
-### _Coming Soon!_
+![](pdfs/Cerebellum_ATM.JPEG)
 
 __Background__: Many questions remain regarding the mechanisms underlying the chronic pain experience. However, a growing body of research has shown that alterations in learning processes are a strong predictor of pain-related disability and targeting these processes with exposure-based therapies is effective at reducing chronic pain symptoms. With the aim of furthering this clinical progress, basic research is addressing the need to better understand the neural mechanisms underlying these learning processes. However, the focus within this field of research has primarily been on the cerebrum, excluding potential cerebellar contributions. Previous research in pain-free adults suggests that differential responses to threat and safety cues may be apparent in the anterior vermis, Crus I-II, IV-VIIb, and IX. However, this is untested in a (chronic pain) adolescent population. 
 
