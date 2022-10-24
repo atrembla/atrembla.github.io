@@ -13,6 +13,14 @@ _Coming Soon!_
 
 _Coming Soon!_
 
+__Introduction__: Diagnostic uncertainty (DU) is experienced by over a third of youth with chronic primary pain and their parents. Parent DU has been linked to higher youth pain and lower health-related quality of life. Mounting evidence demonstrates that DU is a debilitating phenomenon, however, research has yet to explore how DU may change over time. This study examined change in DU among parents of youth with chronic musculoskeletal (MSK) pain and its relation to youth’s pain and functioning. 
+
+__Methods__: 152 youth enrolled in tertiary level care for chronic MSK pain (12-18 years; 85% female) and their parents participated in an active, multi-site biomarker signature study (SPRINT). Youth pain, functioning, and global impression of change (PGIC) were measured at baseline, 2-week intervals for 12 weeks, then at 6-month, 9-month, and 12-month follow-up. Parents were classified into certain or uncertain categories at baseline and follow-up using an established self-report measure. 
+
+__Results__: At baseline, 42% of parents endorsed DU. A chi square test of independence showed that youth whose parents reported DU were more likely to report worse PGIC, 2 (1, N=135) = 5.7, p < .05. Of the 65 parents who have completed the follow-up to date, 23% reported DU at baseline and remained uncertain at follow-up, 18% shifted from uncertain to certain, 14% shifted from certain to uncertain, while 45% remained certain across time. Results indicate improvement in youth pain disability between baseline (M=28.5, SD=11.6) and follow-up (M=16.7, SD=11.7) among youth whose parents shifted from uncertain to certain over time. This result is approaching significance with a Bonferroni corrected alpha level of .0125, t(11)=2.574, p=.026.
+
+__Conclusions__: This study demonstrates that parent DU is dynamic and linked to youth’s PGIC and functional disability. Future research should seek to elucidate factors that impact DU and may facilitate reduction in DU within pain care. 
+
 ***
 
 ### IASP World Congress on Pain 2022 - Toronto, Canada
