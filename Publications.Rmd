@@ -31,7 +31,7 @@ Chronic pain is common in young people and can have a major impact across life d
 
 ***
 
-Simons, L.E., Hess, C.W., Choate, E.S., Van Orden, A.R., __Tremblay-McGaw, A.G.__, Menendez, M., Boothroyd, D.B., Griffin, A., Parvathinathan, G., Griffin, A., Caruso, T.J., Stinson, J., Weisman, A., Liu, T., Christensen, R., & Koeppen, K., (under review). Virtual Reality Augmented Physiotherapy for Chronic Pain in Youth: Protocol for a randomized controlled trial enhanced with single case experimental design. Journal of Medical Internet Research.
+Simons, L.E., Hess, C.W., Choate, E.S., Van Orden, A.R., __Tremblay-McGaw, A.G.__, Menendez, M., Boothroyd, D.B., Griffin, A., Parvathinathan, G., Griffin, A., Caruso, T.J., Stinson, J., Weisman, A., Liu, T., Christensen, R., & Koeppen, K., (in press). Virtual Reality Augmented Physiotherapy for Chronic Pain in Youth: Protocol for a randomized controlled trial enhanced with single case experimental design. Journal of Medical Internet Research.
 
 __Abstract__
 
