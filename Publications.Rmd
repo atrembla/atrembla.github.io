@@ -12,15 +12,14 @@ _Coming soon!_
 
 ***
 
-__Tremblay-McGaw, A.G.__, Biggs, E.E., Sokol, O., Wiseman Miner, A., Goya Arce, A., & Simons, L.E., (in submission). Who is being represented in research? A framework for assessing diversity and representation in research samples. 
+__Tremblay-McGaw, A.G.__, Biggs, E.E., Sokol, O., Wiseman Miner, A., Goya Arce, A., & Simons, L.E., (in submission). Who is being represented in research? A framework for assessing diversity and representation in prospective research cohorts. 
 
 __Abstract__
 
-_Coming soon!_
+While there are an increasing number of steps being taken to address a lack of representation in research populations, the data needed to facilitate these steps, and fully evaluate current research, is still lacking. In this paper we propose a framework that allows researchers to engage with this process in a small-scale and inexpensive way, by reporting population level characteristics alongside standard participant descriptors. As an example, we examined differences between adolescents with chronic pain who decided to enroll in a large biomarker study and those who were eligible but decided not to enroll. Here, we focused on demographics, pain characteristics, mental health, functioning, and caregiver profiles. We propose that by engaging in such checkpoints, readers can better assess the generalizability of findings, and we can begin to address discrepancies and barriers in research.
 
 
 ***
-
 
 Timmers, I., Bruckert, L., Biggs, E.E., __Tremblay-McGaw, A.G.__, Borsook, D., Zhang, H., & Simons, L.E. (under review). A comprehensive interrogation of neurite microstructure in youth with chronic pain: multi-shell diffusion weighted imaging.
 
