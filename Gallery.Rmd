@@ -3,6 +3,18 @@ title: "Gallery"
 ---
 ***
 
+### Beach Day 2023 - San Francisco, CA
+
+![](imgs/82.jpeg)
+
+***
+
+### Thanksgiving 2022 - San Francisco, CA
+
+![](imgs/83.jpeg)
+
+***
+
 ### Día de los Muertos - San Francisco, CA
 
 ![](imgs/80.jpeg)
