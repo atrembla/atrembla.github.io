@@ -12,7 +12,16 @@ _Coming soon!_
 
 ***
 
-__Tremblay-McGaw, A.G.__, Biggs, E.E., Sokol, O., Wiseman Miner, A., Goya Arce, A., & Simons, L.E., (under review). Who is being represented in research? A framework for assessing diversity and representation in prospective research cohorts. 
+Biggs, E.E., Heathcote, L.C., Timmers, I., __Tremblay-McGaw, A.G.__, Noel, M., Borsook, D., & Simons, L.E., (in preparation). Testing the boundary conditions of emotional memory bias: A multi-method examination in adolescents with chronic pain
+
+__Abstract__
+
+_Coming soon!_
+
+
+***
+
+__Tremblay-McGaw, A.G.__, Biggs, E.E., Sokol, O., Wiseman Miner, A., Goya Arce, A., & Simons, L.E., (under review). Who is being represented in research? A framework for assessing diversity and representation in prospective research cohorts.
 
 __Abstract__
 
@@ -37,8 +46,8 @@ __Abstract__
 
 Chronic musculoskeletal (MSK) pain is a prominent health concern, resulting in pain-related disability, loss of functioning and high healthcare costs. Physiotherapy rehabilitation is a gold standard treatment for improving functioning in youth with chronic MSK. However, increasing physical activity can feel unattainable for many adolescents due to pain related fear and movement avoidance. Virtual reality (VR) offers an immersive experience that can interrupt the fear-avoidance cycle and improve engagement in physiotherapy. Despite promising initial findings, data are limited and often lack the rigor required to establish VR as an evidence-based treatment for MSK pain. This trial evaluates pain rehabilitation virtual reality (PRVR) for adolescents with MSK pain. This protocol paper outlines the rationale, design, and implementation of a two-group randomized control trial (RCT) enhanced with Single Case Experimental Design (SCED). The objective of this RCT is to test this advancement in VR technology by providing new treatment solutions targeting nonpharmacological movement facilitation. Primary outcomes include physical function and engagement in VR. Secondary outcomes include pain-related fear and treatment adherence. Significant breakthroughs for treating MSK pain require mechanistically informed innovative approaches. PRVR provides exposure to progressive challenge, real-time feedback, reinforcement for movement and can include activities difficult to achieve in the real world. It has the added benefits of sustaining patient motivation and adherence while enabling clinicians to use objective benchmarks to influence progression. These findings will inform the decision of whether to proceed with a hybrid effectiveness-dissemination trial of PRVR, serving as the basis for potential large-scale implementation of PRVR.
 
-***
 
+***
 
 Chanales, A.J.H., __Tremblay-McGaw, A.G.__, Drascher, M.L., & Kuhl, B.A. (2020). Adaptive Repulsion of Long-Term Memory Representations Is Triggered by Event Similarity. Psychological Science. 32 (5), 705-720. [PDF](pdfs/ChanalesEtal2021.pdf)
 
