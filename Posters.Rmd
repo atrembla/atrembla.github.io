@@ -3,6 +3,23 @@ title: "Posters"
 ---
 ***
 
+### European ediatric Psychology Conference 2023 - Scotland, UK
+
+_Coming Soon!_
+
+__Introduction__: In research on chronic pain there is often a need to classify individuals as ‘recovered’ or ‘persistent’. Classifying individuals as above or below a threshold can be a useful tool in biomarker development or evaluating the efficacy of an intervention. Thresholds are commonly set by status or the degree of change, and the measurement scale varies depending on the research aims. In the present study we evaluated the variability in recovery classifications using several metrics.
+
+__Methods__: As part of a larger study on pain recovery (Signature for Pain Recovery IN Teens), longitudinal data was collected from 152 adolescents undergoing multidisciplinary pain care across three sites. Measures included Functional Disability Inventory (FDI), Pain Interference subscale from the Brief Pain Inventory, and Perceived Global Index of Change (PGIC). These measures were collected at baseline, 3-, 6-, 9-, and 12-months follow-up. Data were analyzed using trajectory clustering analyses, status at follow-up, and threshold of 30% or greater percent change from baseline to follow-up. Contingency tests were used to assess the convergence of these groupings.
+
+__Results__: When functioning (FDI) was used as a clinical endpoint, 57% (n=87) of the sample were classified as ‘recovered’ based on either trajectory, status at 12-month follow-up (FDI <13), or percent change from baseline to 12-month follow-up (>30%). However, only 4% of these participants were classified as ‘recovered’ by all three approaches. Participants with FDI trajectories showing improvement were also likely to have reduced pain interference trajectories (82%), as well as perceived improvement (very/much improved: 76%). However, participants that showed no change or a worsening of disability were equally likely to be classified as improved (50%) or worsened (50%) based on pain interference. Half (52%) of these participants reported perceiving no or minimal change, with 28% reporting (very) much improvement, and 20% reporting (very) much worsening.
+
+__Conclusions__: We observed variation in participant classification based on the type of clinical endpoint used, and how improvement in that measure was operationalized.
+
+Recovery is a multifaceted phenomenon and individuals may show recovery trends in one domain but not another. Furthermore, participants may show overall improvements but not reach sub-threshold status. We will discuss the benefits and shortcomings of using multiple measures to capture a holistic view of recovery.
+
+
+***
+
 ### Social and Affective Neuroscience 2023 - Santa Barbara, CA
 
 _Coming Soon!_
