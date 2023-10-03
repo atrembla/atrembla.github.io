@@ -20,7 +20,7 @@ __Conclusions__: We found a robust association between augmented task-evoked act
 
 ### European Pediatric Psychology Conference 2023 - Scotland, UK
 
-_Coming Soon!_
+![](pdfs/Biggsetal.JPEG)
 
 __Introduction__: In research on chronic pain there is often a need to classify individuals as ‘recovered’ or ‘persistent’. Classifying individuals as above or below a threshold can be a useful tool in biomarker development or evaluating the efficacy of an intervention. Thresholds are commonly set by status or the degree of change, and the measurement scale varies depending on the research aims. In the present study we evaluated the variability in recovery classifications using several metrics.
 
