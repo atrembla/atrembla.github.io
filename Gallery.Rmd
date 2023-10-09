@@ -7,8 +7,6 @@ title: "Gallery"
 
 ![](imgs/111.jpeg)
 
-![](imgs/112.jpeg)
-
 ***
 
 ### BPP CRC Meeting - Palo Alto, CA
