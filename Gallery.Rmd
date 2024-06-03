@@ -299,6 +299,12 @@ title: "Gallery"
 ***
 
 
+### Lab Dinner 2019 - Eugene, OR
+
+![](imgs/119.jpg)
+
+*** 
+
 ### Kuhl Lab Photo 2019 - Eugene, OR
 
 ![](imgs/10.jpg)
@@ -327,6 +333,17 @@ title: "Gallery"
 ***
 
 
+### Public House 2019 - Springfield, OR
+
+![](imgs/116.jpg)
+
+![](imgs/117.jpg)
+
+![](imgs/118.jpg)
+
+***
+
+
 ### Cognitive Neuroscience Society Conference 2019 - San Francisco, CA
 
 ![](imgs/2.jpg)
@@ -346,6 +363,10 @@ title: "Gallery"
 ![](imgs/5.jpeg)
 
 ![](imgs/6.jpeg)
+![](imgs/115.jpg)
+
+![](imgs/113.jpg)
+![](imgs/114.jpg)
 
 ***
 
