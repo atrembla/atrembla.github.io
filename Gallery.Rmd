@@ -363,9 +363,11 @@ title: "Gallery"
 ![](imgs/5.jpeg)
 
 ![](imgs/6.jpeg)
+
 ![](imgs/115.jpg)
 
 ![](imgs/113.jpg)
+
 ![](imgs/114.jpg)
 
 ***
@@ -383,6 +385,20 @@ title: "Gallery"
 ### Cooking Throughout the Years - Oregon and California
 
 ![](imgs/66.jpeg)
+
+![](imgs/126.jpeg)
+
+![](imgs/121.jpeg)
+
+![](imgs/124.jpeg)
+
+![](imgs/122.jpeg)
+
+![](imgs/123.jpeg)
+
+![](imgs/120.jpeg)
+
+![](imgs/125.jpeg)
 
 ![](imgs/61.jpeg)
 

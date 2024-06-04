@@ -3,6 +3,15 @@ title: "Publications"
 ---
 ***
 
+Fan, J., Woodworth, K., Murphy, K.R., Hinkley, L., Cohen, J.L., Yoshimura, J.,  Choi, J., __Tremblay-McGaw, A.G.__, Mergenthaler, J., Good, C.H., Pellionisz, P.A., Lee, A.M., Ianni, T.D., Sugrue, L.P., Krystal, A. (in submission). Thalamic low intensity focused ultrasound stimulation in treatment resistant depression.
+
+__Abstract__
+
+_Coming soon!_
+
+
+***
+
 __Tremblay-McGaw, A.G.__, Biggs, E.E., Timmers, I., Moulton, E., & Simons, L.E., (in preparation). The role of the cerebellum in threat learning in youth with chronic pain.
 
 __Abstract__
@@ -30,7 +39,7 @@ While there are an increasing number of steps being taken to address a lack of r
 
 ***
 
-Timmers, I., Bruckert, L., Biggs, E.E., __Tremblay-McGaw, A.G.__, Borsook, D., Zhang, H., & Simons, L.E. (2022). Probing white matter microstructure in youth with chronic pain and its relation to catastrophizing using neurite orientation dispersion and density imaging. PAIN ():10.1097/j.pain.0000000000003269, May 8, 2024.
+Timmers, I., Bruckert, L., Biggs, E.E., __Tremblay-McGaw, A.G.__, Borsook, D., Zhang, H., & Simons, L.E. (2024). Probing white matter microstructure in youth with chronic pain and its relation to catastrophizing using neurite orientation dispersion and density imaging. PAIN ():10.1097/j.pain.0000000000003269, May 8, 2024.
 
 __Abstract__
 
