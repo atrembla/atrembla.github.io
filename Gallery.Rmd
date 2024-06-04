@@ -3,13 +3,13 @@ title: "Gallery"
 ---
 ***
 
-### Krystal Lab CRC Meeting - San Francisco, CA
+### Krystal Lab CRC Meeting 2023 - San Francisco, CA
 
 ![](imgs/111.jpeg)
 
 ***
 
-### BPP CRC Meeting - Palo Alto, CA
+### BPP CRC Meeting 2023 - Palo Alto, CA
 
 ![](imgs/109.jpeg)
 
@@ -75,7 +75,7 @@ title: "Gallery"
 
 ***
 
-### Día de los Muertos - San Francisco, CA
+### Día de los Muertos 2022 - San Francisco, CA
 
 ![](imgs/80.jpeg)
 
@@ -83,7 +83,7 @@ title: "Gallery"
 
 ***
 
-### The Ninth Annual Symposium of the Wu Tsai Neurosciences Institute - Stanford, CA
+### The Ninth Annual Symposium of the Wu Tsai Neurosciences Institute 2022 - Stanford, CA
 
 ![](imgs/59.jpeg)
 
@@ -91,7 +91,7 @@ title: "Gallery"
 
 ***
 
-### A growing garden - San Francisco, CA
+### A growing garden 2022 - San Francisco, CA
 
 ![](imgs/76.jpeg)
 
@@ -101,7 +101,7 @@ title: "Gallery"
 
 ***
 
-### BPP Lab Retreat - Lake Tahoe, CA
+### BPP Lab Retreat 2021 - Lake Tahoe, CA
 
 ![](imgs/55.jpeg)
  
@@ -113,7 +113,7 @@ title: "Gallery"
 
 ***
 
-### IASP World Congress on Pain - Toronto, Canada
+### IASP World Congress on Pain 2022 - Toronto, Canada
  
  ![](imgs/44.jpeg)
  
@@ -147,7 +147,7 @@ title: "Gallery"
  
 ***
 
-### Boi's 5th Birthday - Ocean Beach, CA
+### Boi's 5th Birthday 2022 - Ocean Beach, CA
  
  ![](imgs/39.jpeg)
  
@@ -241,7 +241,7 @@ title: "Gallery"
 ***
 
 
-### Gardening - Springfield, OR
+### Gardening 2021 - Springfield, OR
 
 ![](imgs/67.jpeg)
 
@@ -261,7 +261,7 @@ title: "Gallery"
 ***
 
 
-### Summer in Oregon - Springfield, OR
+### Summer in Oregon 2021 - Springfield, OR
 
 ![](imgs/74.jpeg)
 
@@ -271,6 +271,17 @@ title: "Gallery"
 ### Snowshoeing 2020 - Salt Creek Falls, OR
 
 ![](imgs/18.jpg)
+
+***
+
+
+### The Coast 2020 - Newport, OR
+
+![](imgs/71.jpeg)
+
+![](imgs/72.jpeg)
+
+![](imgs/73.jpeg)
 
 ***
 
@@ -285,16 +296,6 @@ title: "Gallery"
 
 ![](imgs/14.jpg)
 
-*** 
-
-
-### The Coast - Newport, OR
-
-![](imgs/71.jpeg)
-
-![](imgs/72.jpeg)
-
-![](imgs/73.jpeg)
 
 ***
 
