@@ -333,17 +333,6 @@ title: "Gallery"
 ***
 
 
-### Public House 2019 - Springfield, OR
-
-![](imgs/116.jpg)
-
-![](imgs/117.jpg)
-
-![](imgs/118.jpg)
-
-***
-
-
 ### Cognitive Neuroscience Society Conference 2019 - San Francisco, CA
 
 ![](imgs/2.jpg)
@@ -354,6 +343,17 @@ title: "Gallery"
 ### Sarver Winery 2019 - Eugene, OR
 
 ![](imgs/99.jpeg)
+
+***
+
+
+### Public House 2018 - Springfield, OR
+
+![](imgs/116.jpg)
+
+![](imgs/117.jpg)
+
+![](imgs/118.jpg)
 
 ***
 
