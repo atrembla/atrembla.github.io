@@ -3,7 +3,7 @@ title: "Publications"
 ---
 ***
 
-__Tremblay-McGaw, A.G.__, Biggs, E.E., Timmers, I., Moulton, E., & Simons, L.E., (in preparation). The role of the cerebellum in threat learning in youth with chronic pain.
+__Tremblay-McGaw, A.G.__, Biggs, E.E., Timmers, I., Moulton, E., & Simons, L.E. (in preparation). The role of the cerebellum in threat learning in youth with chronic pain.
 
 __Abstract__
 
@@ -12,7 +12,7 @@ _Coming soon!_
 ***
 
 
-__Tremblay-McGaw, A.G.__, Biggs, E.E., Sokol, O., Wiseman Miner, A., Goya Arce, A., & Simons, L.E., (under review). Who is being represented in research? A researcher-driven method for assessing diversity and representation in prospective research cohorts.
+__Tremblay-McGaw, A.G.__, Biggs, E.E., Sokol, O., Wiseman Miner, A., Goya Arce, A., & Simons, L.E. (under review). Who is being represented in research? A researcher-driven method for assessing diversity and representation in prospective research cohorts.
 
 __Abstract__
 
@@ -29,7 +29,7 @@ Fan, J., Woodworth, K., Murphy, K.R., Hinkley, L., Cohen, J.L., Yoshimura, J.,  
 ***
 
 
-Biggs, E.E., Heathcote, L.C., Timmers, I., __Tremblay-McGaw, A.G.__, Noel, M., Borsook, D., & Simons, L.E., (2024). Emotional memory bias in adolescents with chronic pain: examining the relationship with neural, stress,
+Biggs, E.E., Heathcote, L.C., Timmers, I., __Tremblay-McGaw, A.G.__, Noel, M., Borsook, D., & Simons, L.E. (2024). Emotional memory bias in adolescents with chronic pain: examining the relationship with neural, stress,
 and psychological factors. PAIN.
 
 ![](pdfs/MemoryBias.JPEG)
@@ -44,7 +44,7 @@ Timmers, I., Bruckert, L., Biggs, E.E., __Tremblay-McGaw, A.G.__, Borsook, D., Z
 ***
 
 
-Simons, L.E., Hess, C.W., Choate, E.S., Van Orden, A.R., __Tremblay-McGaw, A.G.__, Menendez, M., Boothroyd, D.B., Griffin, A., Parvathinathan, G., Griffin, A., Caruso, T.J., Stinson, J., Weisman, A., Liu, T., Christensen, R., & Koeppen, K., (2022). Virtual Reality Augmented Physiotherapy for Chronic Pain in Youth: Protocol for a randomized controlled trial enhanced with single case experimental design. Journal of Medical Internet Research. 11(12):e40705.
+Simons, L.E., Hess, C.W., Choate, E.S., Van Orden, A.R., __Tremblay-McGaw, A.G.__, Menendez, M., Boothroyd, D.B., Griffin, A., Parvathinathan, G., Griffin, A., Caruso, T.J., Stinson, J., Weisman, A., Liu, T., Christensen, R., & Koeppen, K. (2022). Virtual Reality Augmented Physiotherapy for Chronic Pain in Youth: Protocol for a randomized controlled trial enhanced with single case experimental design. Journal of Medical Internet Research. 11(12):e40705.
 [PDF](pdfs/SimonsEtal2022.pdf)
 
 ![](pdfs/Simons.JPEG)
