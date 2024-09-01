@@ -13,8 +13,8 @@
 
 <title>Posters</title>
 
-<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -137,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -170,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -179,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -232,7 +233,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -274,131 +275,661 @@ $(document).ready(function () {
 
 
 <hr />
-<div id="international-symposium-on-pediatric-pain-2023---nova-scotia-canada." class="section level3">
-<h3>International Symposium on Pediatric Pain 2023 - Nova Scotia, Canada.</h3>
+<div
+id="international-symposium-on-pediatric-pain-2023---nova-scotia-canada."
+class="section level3">
+<h3>International Symposium on Pediatric Pain 2023 - Nova Scotia,
+Canada.</h3>
 <p><img src="pdfs/SPD.JPEG" /></p>
-<p><strong>Introduction</strong>: Multisensory experiences are common in daily life, and compromise well-being when individuals experience sensory hypersensitivities. Non-painful sensory hypersensitivities can be particularly challenging for adolescents with chronic musculoskeletal pain (CMP), which affects 30-50% of adolescents, and impacts school attendance and physical activity 1. Sex differences in CMP emerge during adolescence, with most chronic pain conditions affecting adolescent girls, who also report decreased quality of life (QOL) and heightened unpleasantness in response to non-painful sensory stimuli 2-6. Hypersensitivity to multisensory stimulation has been linked with lower QOL in chronic pain patients, including adolescents, and with greater bodily pain extensiveness across chronic pain conditions in adulthood 7,8. This study aims to investigate the relationship between brain responses to multisensory stimulation and QOL in adolescents with CMP for the first time, and to study potential sex differences.</p>
-<p><strong>Methods</strong>: We included N=129 (110 females and 19 males, 12 to and 18 years, mean age=15.58, SD=1.57) with CMP, which were recruited in Stanford University, Cincinnati Children’s Hospital, and Toronto Sick Kids. An fMRI multisensory task 9,10 was used to study the relationship between brain responses to non-painful multisensory stimulation and self-reported QOL (physical and psychosocial dimensions of the Pediatric Quality of Life Inventory (PedsQL)). The fMRI multisensory task involved four trials of concurrent presentation of visual, auditory, and tactile-motor stimulation and alternating rest periods.</p>
-<p><strong>Results</strong>: Augmented brain responses to non-painful multisensory stimulation in the rostral anterior cingulate cortex (ACC) predicted lower physical QOL in the entire sample (qFWEcluster-corrected=0.05, individual voxel pthreshold&lt;.001). The correlation between ACC activation and lower self-reported QOL was replicated in the female group. In females, another cluster became significant in the dorsomedial prefrontal cortex (dmPFC) (qFWE=0.029). Results were not replicated in males (N=19). We ran bootstrap analyses with 5000 permutations revealing that the probability of obtaining the resulting clusters by chance was &lt; 0.01% (for both the entire sample and for female subsample). When extracting beta values from the two significant clusters to test whether the correlation was present at an uncorrected level for the male group, we found no significant correlations (ACC: r=0.09, p=0.71; dmPFC: r=-0.09, p=0.72). No significant results were found for the association between task-evoked brain activation and psychosocial QOL. We found a non-significant negative correlation trend between Physical QOL and self-reported multisensory unpleasantness during the task across subjects (r=-0.17, p=0.056), and a significant correlation between the later and psychosocial QOL (r= -0.26, p=0.002).</p>
-<p><strong>Conclusions</strong>: We found a robust association between augmented task-evoked activation in the dmPFC and rostral ACC and worse QOL for the physical health dimension in females with CMP. Lower self-reported psychosocial QOL was associated with higher unpleasantness ratings during the multisensory task. The results suggest that adolescent patients who show greater activation in affective/regulation circuits during a non-painful, unpleasant sensory task experience lower QOL in the physical dimension (related to ability to perform physical activities and the impact of physical health on their daily lives), which links physical QOL to aberrant multisensory processing via augmented responses in affect/regulation circuits in youth with CMP.</p>
+<p><strong>Introduction</strong>: Multisensory experiences are common in
+daily life, and compromise well-being when individuals experience
+sensory hypersensitivities. Non-painful sensory hypersensitivities can
+be particularly challenging for adolescents with chronic musculoskeletal
+pain (CMP), which affects 30-50% of adolescents, and impacts school
+attendance and physical activity 1. Sex differences in CMP emerge during
+adolescence, with most chronic pain conditions affecting adolescent
+girls, who also report decreased quality of life (QOL) and heightened
+unpleasantness in response to non-painful sensory stimuli 2-6.
+Hypersensitivity to multisensory stimulation has been linked with lower
+QOL in chronic pain patients, including adolescents, and with greater
+bodily pain extensiveness across chronic pain conditions in adulthood
+7,8. This study aims to investigate the relationship between brain
+responses to multisensory stimulation and QOL in adolescents with CMP
+for the first time, and to study potential sex differences.</p>
+<p><strong>Methods</strong>: We included N=129 (110 females and 19
+males, 12 to and 18 years, mean age=15.58, SD=1.57) with CMP, which were
+recruited in Stanford University, Cincinnati Children’s Hospital, and
+Toronto Sick Kids. An fMRI multisensory task 9,10 was used to study the
+relationship between brain responses to non-painful multisensory
+stimulation and self-reported QOL (physical and psychosocial dimensions
+of the Pediatric Quality of Life Inventory (PedsQL)). The fMRI
+multisensory task involved four trials of concurrent presentation of
+visual, auditory, and tactile-motor stimulation and alternating rest
+periods.</p>
+<p><strong>Results</strong>: Augmented brain responses to non-painful
+multisensory stimulation in the rostral anterior cingulate cortex (ACC)
+predicted lower physical QOL in the entire sample
+(qFWEcluster-corrected=0.05, individual voxel pthreshold&lt;.001). The
+correlation between ACC activation and lower self-reported QOL was
+replicated in the female group. In females, another cluster became
+significant in the dorsomedial prefrontal cortex (dmPFC) (qFWE=0.029).
+Results were not replicated in males (N=19). We ran bootstrap analyses
+with 5000 permutations revealing that the probability of obtaining the
+resulting clusters by chance was &lt; 0.01% (for both the entire sample
+and for female subsample). When extracting beta values from the two
+significant clusters to test whether the correlation was present at an
+uncorrected level for the male group, we found no significant
+correlations (ACC: r=0.09, p=0.71; dmPFC: r=-0.09, p=0.72). No
+significant results were found for the association between task-evoked
+brain activation and psychosocial QOL. We found a non-significant
+negative correlation trend between Physical QOL and self-reported
+multisensory unpleasantness during the task across subjects (r=-0.17,
+p=0.056), and a significant correlation between the later and
+psychosocial QOL (r= -0.26, p=0.002).</p>
+<p><strong>Conclusions</strong>: We found a robust association between
+augmented task-evoked activation in the dmPFC and rostral ACC and worse
+QOL for the physical health dimension in females with CMP. Lower
+self-reported psychosocial QOL was associated with higher unpleasantness
+ratings during the multisensory task. The results suggest that
+adolescent patients who show greater activation in affective/regulation
+circuits during a non-painful, unpleasant sensory task experience lower
+QOL in the physical dimension (related to ability to perform physical
+activities and the impact of physical health on their daily lives),
+which links physical QOL to aberrant multisensory processing via
+augmented responses in affect/regulation circuits in youth with CMP.</p>
 <hr />
 </div>
-<div id="european-pediatric-psychology-conference-2023---scotland-uk" class="section level3">
+<div id="european-pediatric-psychology-conference-2023---scotland-uk"
+class="section level3">
 <h3>European Pediatric Psychology Conference 2023 - Scotland, UK</h3>
 <p><img src="pdfs/Biggsetal.JPEG" /></p>
-<p><strong>Introduction</strong>: In research on chronic pain there is often a need to classify individuals as ‘recovered’ or ‘persistent’. Classifying individuals as above or below a threshold can be a useful tool in biomarker development or evaluating the efficacy of an intervention. Thresholds are commonly set by status or the degree of change, and the measurement scale varies depending on the research aims. In the present study we evaluated the variability in recovery classifications using several metrics.</p>
-<p><strong>Methods</strong>: As part of a larger study on pain recovery (Signature for Pain Recovery IN Teens), longitudinal data was collected from 152 adolescents undergoing multidisciplinary pain care across three sites. Measures included Functional Disability Inventory (FDI), Pain Interference subscale from the Brief Pain Inventory, and Perceived Global Index of Change (PGIC). These measures were collected at baseline, 3-, 6-, 9-, and 12-months follow-up. Data were analyzed using trajectory clustering analyses, status at follow-up, and threshold of 30% or greater percent change from baseline to follow-up. Contingency tests were used to assess the convergence of these groupings.</p>
-<p><strong>Results</strong>: When functioning (FDI) was used as a clinical endpoint, 57% (n=87) of the sample were classified as ‘recovered’ based on either trajectory, status at 12-month follow-up (FDI &lt;13), or percent change from baseline to 12-month follow-up (&gt;30%). However, only 4% of these participants were classified as ‘recovered’ by all three approaches. Participants with FDI trajectories showing improvement were also likely to have reduced pain interference trajectories (82%), as well as perceived improvement (very/much improved: 76%). However, participants that showed no change or a worsening of disability were equally likely to be classified as improved (50%) or worsened (50%) based on pain interference. Half (52%) of these participants reported perceiving no or minimal change, with 28% reporting (very) much improvement, and 20% reporting (very) much worsening.</p>
-<p><strong>Conclusions</strong>: We observed variation in participant classification based on the type of clinical endpoint used, and how improvement in that measure was operationalized.</p>
-<p>Recovery is a multifaceted phenomenon and individuals may show recovery trends in one domain but not another. Furthermore, participants may show overall improvements but not reach sub-threshold status. We will discuss the benefits and shortcomings of using multiple measures to capture a holistic view of recovery.</p>
+<p><strong>Introduction</strong>: In research on chronic pain there is
+often a need to classify individuals as ‘recovered’ or ‘persistent’.
+Classifying individuals as above or below a threshold can be a useful
+tool in biomarker development or evaluating the efficacy of an
+intervention. Thresholds are commonly set by status or the degree of
+change, and the measurement scale varies depending on the research aims.
+In the present study we evaluated the variability in recovery
+classifications using several metrics.</p>
+<p><strong>Methods</strong>: As part of a larger study on pain recovery
+(Signature for Pain Recovery IN Teens), longitudinal data was collected
+from 152 adolescents undergoing multidisciplinary pain care across three
+sites. Measures included Functional Disability Inventory (FDI), Pain
+Interference subscale from the Brief Pain Inventory, and Perceived
+Global Index of Change (PGIC). These measures were collected at
+baseline, 3-, 6-, 9-, and 12-months follow-up. Data were analyzed using
+trajectory clustering analyses, status at follow-up, and threshold of
+30% or greater percent change from baseline to follow-up. Contingency
+tests were used to assess the convergence of these groupings.</p>
+<p><strong>Results</strong>: When functioning (FDI) was used as a
+clinical endpoint, 57% (n=87) of the sample were classified as
+‘recovered’ based on either trajectory, status at 12-month follow-up
+(FDI &lt;13), or percent change from baseline to 12-month follow-up
+(&gt;30%). However, only 4% of these participants were classified as
+‘recovered’ by all three approaches. Participants with FDI trajectories
+showing improvement were also likely to have reduced pain interference
+trajectories (82%), as well as perceived improvement (very/much
+improved: 76%). However, participants that showed no change or a
+worsening of disability were equally likely to be classified as improved
+(50%) or worsened (50%) based on pain interference. Half (52%) of these
+participants reported perceiving no or minimal change, with 28%
+reporting (very) much improvement, and 20% reporting (very) much
+worsening.</p>
+<p><strong>Conclusions</strong>: We observed variation in participant
+classification based on the type of clinical endpoint used, and how
+improvement in that measure was operationalized.</p>
+<p>Recovery is a multifaceted phenomenon and individuals may show
+recovery trends in one domain but not another. Furthermore, participants
+may show overall improvements but not reach sub-threshold status. We
+will discuss the benefits and shortcomings of using multiple measures to
+capture a holistic view of recovery.</p>
 <hr />
 </div>
-<div id="social-and-affective-neuroscience-2023---santa-barbara-ca" class="section level3">
+<div id="social-and-affective-neuroscience-2023---santa-barbara-ca"
+class="section level3">
 <h3>Social and Affective Neuroscience 2023 - Santa Barbara, CA</h3>
 <p><img src="pdfs/SANS.JPEG" /></p>
-<p><strong>Introduction</strong>: Chronic musculoskeletal (MSK) pain affects the lives of over a quarter of youth, with societal costs exceeding $19.5 billion dollars in the U.S. each year. Chronic MSK pain in childhood predicts symptom continuity across the lifespan and is a documented risk for opioid misuse, the effects of which have been deemed a public health crisis. Furthermore, chronic MSK pain impacts multiple domains including social, emotional, and behavioral functioning.</p>
-<p>Previous research demonstrates a strong association between sleep quality and emotional functioning and is a critical component of healthy development during adolescence. Approximately 30% of children and the majority of adolescents experience sleep inefficiency increasing their chance of developing psychopathology later in life. Additionally, previous research has also found poor sleep to be associated with prolonged chronic pain. However, little is known about how sleep and mood differs among youth with chronic pain and pain-free youth. The present study examines sleep quality and emotional functioning (anxiety, depression) in a cohort of youth with chronic MSK pain compared to pain-free peers.</p>
-<p><strong>Methods</strong>: The present study utilizes an existing dataset collected during a larger study between 2017 and 2021. Youth (N = 78) were between 10-18 years old (68% female). Of these youth, 54 had a diagnosis of chronic pain, the remaining youth were pain-free peers. We examine associations of sleep (PROMIS: Sleep Disturbance Scale), depression (Child Depression Inventory), and anxiety (State-Trait Anxiety Inventory-TRAIT) across the entire sample of youth. Independent samples T-tests were conducted to examine differences in variables between youth with chronic pain and pain-free peers.</p>
-<p><strong>Results</strong>: Pearson’s correlations demonstrated significant associations between sleep disturbance and depression for youth with chronic pain (r = 0.52, p &lt; .001) and pain-free peers (r = 0.60, p = .012). Sleep disturbance was also significantly associated with increased anxiety in youth with chronic pain (r = 0.41, p = 0.10). Independent samples T-tests demonstrate youth with chronic pain had significantly worse sleep compared to pain free peers (t = 4.07, p &lt;0.001). Further, youth with chronic pain report significantly higher depression compared to pain-free peers (t = 4.22, p &lt; 0.001).</p>
-<p><strong>Conclusions</strong>: Sleep is a problem for all youth and is associated with poorer emotional functioning in youth living with chronic pain and pain-free peers. However, youth with chronic pain report worse sleep and depression compared to pain-free controls. Given that poor sleep and mood is known to be associate with increased pain chronicity it is important to target these symptoms when treating chronic pain. Future research should examine objective measures of sleep (i.e., actigraphy) in this population, as well as possible moderators of sleep quality in youth with chronic pain (i.e., functional impairment).</p>
+<p><strong>Introduction</strong>: Chronic musculoskeletal (MSK) pain
+affects the lives of over a quarter of youth, with societal costs
+exceeding $19.5 billion dollars in the U.S. each year. Chronic MSK pain
+in childhood predicts symptom continuity across the lifespan and is a
+documented risk for opioid misuse, the effects of which have been deemed
+a public health crisis. Furthermore, chronic MSK pain impacts multiple
+domains including social, emotional, and behavioral functioning.</p>
+<p>Previous research demonstrates a strong association between sleep
+quality and emotional functioning and is a critical component of healthy
+development during adolescence. Approximately 30% of children and the
+majority of adolescents experience sleep inefficiency increasing their
+chance of developing psychopathology later in life. Additionally,
+previous research has also found poor sleep to be associated with
+prolonged chronic pain. However, little is known about how sleep and
+mood differs among youth with chronic pain and pain-free youth. The
+present study examines sleep quality and emotional functioning (anxiety,
+depression) in a cohort of youth with chronic MSK pain compared to
+pain-free peers.</p>
+<p><strong>Methods</strong>: The present study utilizes an existing
+dataset collected during a larger study between 2017 and 2021. Youth (N
+= 78) were between 10-18 years old (68% female). Of these youth, 54 had
+a diagnosis of chronic pain, the remaining youth were pain-free peers.
+We examine associations of sleep (PROMIS: Sleep Disturbance Scale),
+depression (Child Depression Inventory), and anxiety (State-Trait
+Anxiety Inventory-TRAIT) across the entire sample of youth. Independent
+samples T-tests were conducted to examine differences in variables
+between youth with chronic pain and pain-free peers.</p>
+<p><strong>Results</strong>: Pearson’s correlations demonstrated
+significant associations between sleep disturbance and depression for
+youth with chronic pain (r = 0.52, p &lt; .001) and pain-free peers (r =
+0.60, p = .012). Sleep disturbance was also significantly associated
+with increased anxiety in youth with chronic pain (r = 0.41, p = 0.10).
+Independent samples T-tests demonstrate youth with chronic pain had
+significantly worse sleep compared to pain free peers (t = 4.07, p
+&lt;0.001). Further, youth with chronic pain report significantly higher
+depression compared to pain-free peers (t = 4.22, p &lt; 0.001).</p>
+<p><strong>Conclusions</strong>: Sleep is a problem for all youth and is
+associated with poorer emotional functioning in youth living with
+chronic pain and pain-free peers. However, youth with chronic pain
+report worse sleep and depression compared to pain-free controls. Given
+that poor sleep and mood is known to be associate with increased pain
+chronicity it is important to target these symptoms when treating
+chronic pain. Future research should examine objective measures of sleep
+(i.e., actigraphy) in this population, as well as possible moderators of
+sleep quality in youth with chronic pain (i.e., functional
+impairment).</p>
 <hr />
 </div>
-<div id="society-for-pediatric-psychology-annual-conference-2023---chicago-il" class="section level3">
-<h3>Society for Pediatric Psychology Annual Conference 2023 - Chicago, IL</h3>
+<div
+id="society-for-pediatric-psychology-annual-conference-2023---chicago-il"
+class="section level3">
+<h3>Society for Pediatric Psychology Annual Conference 2023 - Chicago,
+IL</h3>
 <p><img src="pdfs/SPACC-23A.JPEG" /></p>
-<p><strong>Introduction</strong>: Diagnostic uncertainty (DU) is experienced by over a third of youth with chronic primary pain and their parents. Parent DU has been linked to higher youth pain and lower health-related quality of life. Mounting evidence demonstrates that DU is a debilitating phenomenon, however, research has yet to explore how DU may change over time. This study examined change in DU among parents of youth with chronic musculoskeletal (MSK) pain and its relation to youth’s pain and functioning.</p>
-<p><strong>Methods</strong>: 152 youth enrolled in tertiary level care for chronic MSK pain (12-18 years; 85% female) and their parents participated in an active, multi-site biomarker signature study (SPRINT). Youth pain, functioning, and global impression of change (PGIC) were measured at baseline, 2-week intervals for 12 weeks, then at 6-month, 9-month, and 12-month follow-up. Parents were classified into certain or uncertain categories at baseline and follow-up using an established self-report measure.</p>
-<p><strong>Results</strong>: At baseline, 42% of parents endorsed DU. A chi square test of independence showed that youth whose parents reported DU were more likely to report worse PGIC, X2 (1, N=135) = 5.7, p &lt; .05. Of the 65 parents who have completed the follow-up to date, 23% reported DU at baseline and remained uncertain at follow-up, 18% shifted from uncertain to certain, 14% shifted from certain to uncertain, while 45% remained certain across time. Results indicate improvement in youth pain disability between baseline (M=28.5, SD=11.6) and follow-up (M=16.7, SD=11.7) among youth whose parents shifted from uncertain to certain over time. This result is approaching significance with a Bonferroni corrected alpha level of .0125, t(11)=2.574, p=.026.</p>
-<p><strong>Conclusions</strong>: This study demonstrates that parent DU is dynamic and linked to youth’s PGIC and functional disability. Future research should seek to elucidate factors that impact DU and may facilitate reduction in DU within pain care.</p>
+<p><strong>Introduction</strong>: Diagnostic uncertainty (DU) is
+experienced by over a third of youth with chronic primary pain and their
+parents. Parent DU has been linked to higher youth pain and lower
+health-related quality of life. Mounting evidence demonstrates that DU
+is a debilitating phenomenon, however, research has yet to explore how
+DU may change over time. This study examined change in DU among parents
+of youth with chronic musculoskeletal (MSK) pain and its relation to
+youth’s pain and functioning.</p>
+<p><strong>Methods</strong>: 152 youth enrolled in tertiary level care
+for chronic MSK pain (12-18 years; 85% female) and their parents
+participated in an active, multi-site biomarker signature study
+(SPRINT). Youth pain, functioning, and global impression of change
+(PGIC) were measured at baseline, 2-week intervals for 12 weeks, then at
+6-month, 9-month, and 12-month follow-up. Parents were classified into
+certain or uncertain categories at baseline and follow-up using an
+established self-report measure.</p>
+<p><strong>Results</strong>: At baseline, 42% of parents endorsed DU. A
+chi square test of independence showed that youth whose parents reported
+DU were more likely to report worse PGIC, X2 (1, N=135) = 5.7, p &lt;
+.05. Of the 65 parents who have completed the follow-up to date, 23%
+reported DU at baseline and remained uncertain at follow-up, 18% shifted
+from uncertain to certain, 14% shifted from certain to uncertain, while
+45% remained certain across time. Results indicate improvement in youth
+pain disability between baseline (M=28.5, SD=11.6) and follow-up
+(M=16.7, SD=11.7) among youth whose parents shifted from uncertain to
+certain over time. This result is approaching significance with a
+Bonferroni corrected alpha level of .0125, t(11)=2.574, p=.026.</p>
+<p><strong>Conclusions</strong>: This study demonstrates that parent DU
+is dynamic and linked to youth’s PGIC and functional disability. Future
+research should seek to elucidate factors that impact DU and may
+facilitate reduction in DU within pain care.</p>
 <hr />
 </div>
-<div id="society-for-pediatric-psychology-annual-conference-2023---chicago-il-1" class="section level3">
-<h3>Society for Pediatric Psychology Annual Conference 2023 - Chicago, IL</h3>
+<div
+id="society-for-pediatric-psychology-annual-conference-2023---chicago-il-1"
+class="section level3">
+<h3>Society for Pediatric Psychology Annual Conference 2023 - Chicago,
+IL</h3>
 <p><img src="pdfs/SPACC-23C.JPEG" /></p>
-<p><strong>Introduction</strong>: There is growing recognition that improving care for patients suffering with chronic pain requires engagement with patient families to identify unmet needs and gaps in care. This study aims to give voice to youth suffering with chronic pain and their caregivers by interrogating the experience of seeking, receiving, and reflecting on pain care, as well as defining access to and engagement with pain care for adolescents with chronic pain.</p>
-<p><strong>Methods</strong>: Participants were recruited from an ongoing study at Stanford University aimed at identifying signatures for chronic pain recovery (SPRINT). Adolescents (11-18) and their caregivers were recruited at various timepoints in their pain care journey and participated in semi-structured interviews ranging 60-120 minutes. Interviewees were first prompted to draw a visual timeline of their pain care journey. Grand tour questions then focused on participant experiences through diagnosis, treatment, involvement with the care team, and general challenges to care seeking and engagement. Meaning and impact probes were asked to gain a deeper understanding of the impact and meaning of participants’ experiences.</p>
-<p><strong>Results</strong>: To date, 20 families, consisting of n=17 adolescents and n=19 caregivers have completed interviews. Interviews were conducted at varying times across patients’ journey, from 1 to 40-months post multidisciplinary pain clinic evaluation. Primary anchors in participant visual timelines highlight the significance of the emergence of pain, the procedures they endured, the emotional lows and highs, and the impact of the care team, particularly during disappointments or when trust was lost.</p>
-<p><strong>Conclusions</strong>: Findings will highlight factors salient to the lived experiences of patients and caregivers, particularly as it relates to their engagement in pain care. These findings can inform future clinical practice and potential intervention targets as patients and caregivers describe the barriers and facilitators to their engagement in care and the moments that most impacted their pain care journeys.</p>
+<p><strong>Introduction</strong>: There is growing recognition that
+improving care for patients suffering with chronic pain requires
+engagement with patient families to identify unmet needs and gaps in
+care. This study aims to give voice to youth suffering with chronic pain
+and their caregivers by interrogating the experience of seeking,
+receiving, and reflecting on pain care, as well as defining access to
+and engagement with pain care for adolescents with chronic pain.</p>
+<p><strong>Methods</strong>: Participants were recruited from an ongoing
+study at Stanford University aimed at identifying signatures for chronic
+pain recovery (SPRINT). Adolescents (11-18) and their caregivers were
+recruited at various timepoints in their pain care journey and
+participated in semi-structured interviews ranging 60-120 minutes.
+Interviewees were first prompted to draw a visual timeline of their pain
+care journey. Grand tour questions then focused on participant
+experiences through diagnosis, treatment, involvement with the care
+team, and general challenges to care seeking and engagement. Meaning and
+impact probes were asked to gain a deeper understanding of the impact
+and meaning of participants’ experiences.</p>
+<p><strong>Results</strong>: To date, 20 families, consisting of n=17
+adolescents and n=19 caregivers have completed interviews. Interviews
+were conducted at varying times across patients’ journey, from 1 to
+40-months post multidisciplinary pain clinic evaluation. Primary anchors
+in participant visual timelines highlight the significance of the
+emergence of pain, the procedures they endured, the emotional lows and
+highs, and the impact of the care team, particularly during
+disappointments or when trust was lost.</p>
+<p><strong>Conclusions</strong>: Findings will highlight factors salient
+to the lived experiences of patients and caregivers, particularly as it
+relates to their engagement in pain care. These findings can inform
+future clinical practice and potential intervention targets as patients
+and caregivers describe the barriers and facilitators to their
+engagement in care and the moments that most impacted their pain care
+journeys.</p>
 <hr />
 </div>
-<div id="iasp-world-congress-on-pain-2022---toronto-canada" class="section level3">
+<div id="iasp-world-congress-on-pain-2022---toronto-canada"
+class="section level3">
 <h3>IASP World Congress on Pain 2022 - Toronto, Canada</h3>
 <p><img src="pdfs/SPRINTRep_ATM.JPEG" /></p>
-<p><strong>Background</strong>: The purpose of clinical research is to further our understanding of the etiology, maintenance, and underlying mechanisms in psychopathology and disease, to be better able to prevent, diagnose, and treat such conditions. Such research requires extensive screening of potential participants to confirm eligibility before recruitment or participation in the study. However, to truly understand the disorder or disease better, experimental research focusing on understanding these underlying mechanisms relies heavily on the participation and study of a representative sample of individuals living with the disorder. For the results of experimental research to be as applicable and generalizable as possible, it is necessary to obtain representative samples from the general population.</p>
-<p><strong>Method</strong>: We examined the differences between the youths with chronic pain who decided to enroll in a large multisite biomarker study (enrolled group), Signature for Pain Recovery IN Teens (SPRINT) at Stanford Children’s Hospital, and those who were eligible but decided not to enroll (not enrolled group). Reasons for not participating included: fear of needles and/or going in the MRI machine, the explicit wish to not enroll, not agreeing to provide consent, or no response to communications from the research team.</p>
-<p><strong>Results</strong>: We compared these groups on key demographics and found no significant differences in age or gender. However, there was a significant difference when we examined race and ethnicity. Specifically, more non-Hispanic White youth enrolled in SPRINT compared to underrepresented racial and ethnic minority (URE) youth, [X2(1)=6.485, p=0.011, enrolled non-Hispanic White n=19(43%) and URE n=25(57%), not enrolled non-Hispanic White n=10(19%) and URE n=42(81%)]. No significant differences were observed in pain characteristics: average pain intensity, mobility, and fatigue. We compared patient mental health and found no significant differences in anxiety, depressive symptoms, pain catastrophizing, or child fear of pain. We examined patient functioning and found no significant difference between groups in school functioning. For parent health demographics we observed no significant difference in physical or mental health. We did observe significantly higher parent pain in the enrolled group compared to the not enrolled group [t(93)=2.167 p=0.033, enrolled M(+SD)=3.227(+2.666), not enrolled M(+SD)=2.137(+2.236)]. However, this difference is not significant once Bonferroni corrected for multiple comparisons and may therefore be the result of a type I error.</p>
-<p><strong>Conclusion</strong>: Overall, results in all patient categories indicate that youths who were eligible and chose not to enroll, compared to those who did enroll, did not differ significantly across multiple domains. However, critically, non-Hispanic White youth did enroll significantly more compared to underrepresented racial and ethnic minority groups in the SPRINT study, indicating an underrepresentation of the population. While we know that a portion of the not enrolled group decided not to enroll because of claustrophobia or trypanophobia, a large portion simply did not wish to enroll, did not provide consent, or did not respond to the research team. Although we do not know the specific reasons patients in the latter three groups elected not to enroll, it is important to consider the potential impact of a history of systemic racism in medical research on URE populations. Currently, we are at a pivotal point in the research to change recruitment methods to ensure that we are equally representing disparate communities.</p>
-<p><strong>Relevance to Patient Care</strong>: Future directions can include, but are not limited to, reaching out to the URE population that did not enroll to learn more about barriers to enrollment and how we can mitigate them. We propose that future research should encompass similar assessment points throughout the recruitment and enrollment process to examine differences between enrolled and not enrolled but eligible cohorts to ensure that there is no systematic bias in recruitment procedures introduced by the study team and that the population participating in all research, specifically chronic pain research, is representative and generalizable. This is particularly important because equitable and representative enrollment and participation in research will lead to improved patient care.</p>
+<p><strong>Background</strong>: The purpose of clinical research is to
+further our understanding of the etiology, maintenance, and underlying
+mechanisms in psychopathology and disease, to be better able to prevent,
+diagnose, and treat such conditions. Such research requires extensive
+screening of potential participants to confirm eligibility before
+recruitment or participation in the study. However, to truly understand
+the disorder or disease better, experimental research focusing on
+understanding these underlying mechanisms relies heavily on the
+participation and study of a representative sample of individuals living
+with the disorder. For the results of experimental research to be as
+applicable and generalizable as possible, it is necessary to obtain
+representative samples from the general population.</p>
+<p><strong>Method</strong>: We examined the differences between the
+youths with chronic pain who decided to enroll in a large multisite
+biomarker study (enrolled group), Signature for Pain Recovery IN Teens
+(SPRINT) at Stanford Children’s Hospital, and those who were eligible
+but decided not to enroll (not enrolled group). Reasons for not
+participating included: fear of needles and/or going in the MRI machine,
+the explicit wish to not enroll, not agreeing to provide consent, or no
+response to communications from the research team.</p>
+<p><strong>Results</strong>: We compared these groups on key
+demographics and found no significant differences in age or gender.
+However, there was a significant difference when we examined race and
+ethnicity. Specifically, more non-Hispanic White youth enrolled in
+SPRINT compared to underrepresented racial and ethnic minority (URE)
+youth, [X2(1)=6.485, p=0.011, enrolled non-Hispanic White n=19(43%) and
+URE n=25(57%), not enrolled non-Hispanic White n=10(19%) and URE
+n=42(81%)]. No significant differences were observed in pain
+characteristics: average pain intensity, mobility, and fatigue. We
+compared patient mental health and found no significant differences in
+anxiety, depressive symptoms, pain catastrophizing, or child fear of
+pain. We examined patient functioning and found no significant
+difference between groups in school functioning. For parent health
+demographics we observed no significant difference in physical or mental
+health. We did observe significantly higher parent pain in the enrolled
+group compared to the not enrolled group [t(93)=2.167 p=0.033, enrolled
+M(+SD)=3.227(+2.666), not enrolled M(+SD)=2.137(+2.236)]. However, this
+difference is not significant once Bonferroni corrected for multiple
+comparisons and may therefore be the result of a type I error.</p>
+<p><strong>Conclusion</strong>: Overall, results in all patient
+categories indicate that youths who were eligible and chose not to
+enroll, compared to those who did enroll, did not differ significantly
+across multiple domains. However, critically, non-Hispanic White youth
+did enroll significantly more compared to underrepresented racial and
+ethnic minority groups in the SPRINT study, indicating an
+underrepresentation of the population. While we know that a portion of
+the not enrolled group decided not to enroll because of claustrophobia
+or trypanophobia, a large portion simply did not wish to enroll, did not
+provide consent, or did not respond to the research team. Although we do
+not know the specific reasons patients in the latter three groups
+elected not to enroll, it is important to consider the potential impact
+of a history of systemic racism in medical research on URE populations.
+Currently, we are at a pivotal point in the research to change
+recruitment methods to ensure that we are equally representing disparate
+communities.</p>
+<p><strong>Relevance to Patient Care</strong>: Future directions can
+include, but are not limited to, reaching out to the URE population that
+did not enroll to learn more about barriers to enrollment and how we can
+mitigate them. We propose that future research should encompass similar
+assessment points throughout the recruitment and enrollment process to
+examine differences between enrolled and not enrolled but eligible
+cohorts to ensure that there is no systematic bias in recruitment
+procedures introduced by the study team and that the population
+participating in all research, specifically chronic pain research, is
+representative and generalizable. This is particularly important because
+equitable and representative enrollment and participation in research
+will lead to improved patient care.</p>
 <hr />
 </div>
-<div id="iasp-world-congress-on-pain-2022---toronto-canada-1" class="section level3">
+<div id="iasp-world-congress-on-pain-2022---toronto-canada-1"
+class="section level3">
 <h3>IASP World Congress on Pain 2022 - Toronto, Canada</h3>
 <p><img src="pdfs/Cerebellum_ATM.JPEG" /></p>
-<p><strong>Background</strong>: Many questions remain regarding the mechanisms underlying the chronic pain experience. However, a growing body of research has shown that alterations in learning processes are a strong predictor of pain-related disability and targeting these processes with exposure-based therapies is effective at reducing chronic pain symptoms. With the aim of furthering this clinical progress, basic research is addressing the need to better understand the neural mechanisms underlying these learning processes. However, the focus within this field of research has primarily been on the cerebrum, excluding potential cerebellar contributions. Previous research in pain-free adults suggests that differential responses to threat and safety cues may be apparent in the anterior vermis, Crus I-II, IV-VIIb, and IX. However, this is untested in a (chronic pain) adolescent population.</p>
-<p><strong>Method</strong>: In the present study we examined two existing data sets previously collected at Boston Children’s Hospital (Study 1, chronic pain n=61; control n=36) and Stanford University (Study 2, chronic pain n=54; control n=48), as part of a larger study on Learning and Memory in pediatric chronic pain. In both studies participants underwent fear conditioning procedures, with extinction training (Study 1) and re-extinction training (Study 2) occurring during functional magnetic resonance imaging (fMRI). Both studies began with an acquisition phase, in which participants were presented with a picture of a neutral face consistently paired with a fearful face and loud (85 dB) scream (conditioned stimulus, CS+), while another neutral face was never paired with the scream (CS-). In Study 1 participants completed a subsequent extinction training, during which participants were repeatedly shown the CS+ and CS- faces, without the scream. In Study 2, extinction was preceded by a reactivation trial in which one of two CSs+ was shown (unreinforced). On day 2 a reinstatement phase (un-cued scream presentation) was followed by a return-of-fear test, and a final re-extinction phase (repeated unreinforced CSs presentations).</p>
-<p>fMRIprep was used for preprocessing of the functional task-evoked MRI data. Analysis of cerebellar task-evoked responses used the SUIT toolbox, including isolation of cerebellum from cerebral cortex and spatial normalization into atlas space. In the first level analyses, a general linear model was used to examine responses to the CS+ and CS-. The comparisons between CS+ &gt;/&lt; CS- were calculated and used for a second level analysis, including age and sex as covariates. The data from Study 1 and 2 were analyzed separately, to assess the replicability of our findings.</p>
-<p><strong>Results</strong>: In Study 1, there were ten significant clusters (uncorrected threshold p&lt;.001, cluster size threshold = 10 voxels) in the cerebellum that shared greater response for CS+ over CS-. These clusters were located in Left VI, Right White, Right Crus I, Vermis IX, Left VIIb, Right VIIb, Vermis Crus II, Right Dentate, and two in Right VI. In Study 1, there were three significant clusters that showed a greater response for CS- over CS+. These clusters were located in Right V, Left VIIIb, and Right Crus II. However, in Study 2, these effects were not replicated, with no significant clusters in the cerebellum that shared a greater response for CS+ compared to CS-, or vice versa.</p>
-<p><strong>Conclusion</strong>: The differential responses observed in the cerebellum for extinction (Study 1) were consistent with our hypotheses. However, these differential responses were not apparent during re-extinction (Study 2), suggesting that these different learning phases may rely on different neural mechanisms. Re-extinction occurs after return of fear and relies on the reconsolidation of an existing memory trace, whereas extinction occurs after the initial fear acquisition and relies on the formation of a new memory trace. The integration of these findings with responses observed in the cerebrum would be a next step in improving our understanding of how these regions interact and support emotional learning.</p>
-<p><strong>Relevance for Patient Care</strong>: Taken together, understanding mechanistically how fear and emotional processing are influenced in a developmentally critical time point in youth with chronic pain could help providers better treat and care for both adults and children suffering from chronic pain and other disorders and diseases where learned fear can influence many factors such as function, disability, mental and physical health, and pain.</p>
+<p><strong>Background</strong>: Many questions remain regarding the
+mechanisms underlying the chronic pain experience. However, a growing
+body of research has shown that alterations in learning processes are a
+strong predictor of pain-related disability and targeting these
+processes with exposure-based therapies is effective at reducing chronic
+pain symptoms. With the aim of furthering this clinical progress, basic
+research is addressing the need to better understand the neural
+mechanisms underlying these learning processes. However, the focus
+within this field of research has primarily been on the cerebrum,
+excluding potential cerebellar contributions. Previous research in
+pain-free adults suggests that differential responses to threat and
+safety cues may be apparent in the anterior vermis, Crus I-II, IV-VIIb,
+and IX. However, this is untested in a (chronic pain) adolescent
+population.</p>
+<p><strong>Method</strong>: In the present study we examined two
+existing data sets previously collected at Boston Children’s Hospital
+(Study 1, chronic pain n=61; control n=36) and Stanford University
+(Study 2, chronic pain n=54; control n=48), as part of a larger study on
+Learning and Memory in pediatric chronic pain. In both studies
+participants underwent fear conditioning procedures, with extinction
+training (Study 1) and re-extinction training (Study 2) occurring during
+functional magnetic resonance imaging (fMRI). Both studies began with an
+acquisition phase, in which participants were presented with a picture
+of a neutral face consistently paired with a fearful face and loud (85
+dB) scream (conditioned stimulus, CS+), while another neutral face was
+never paired with the scream (CS-). In Study 1 participants completed a
+subsequent extinction training, during which participants were
+repeatedly shown the CS+ and CS- faces, without the scream. In Study 2,
+extinction was preceded by a reactivation trial in which one of two CSs+
+was shown (unreinforced). On day 2 a reinstatement phase (un-cued scream
+presentation) was followed by a return-of-fear test, and a final
+re-extinction phase (repeated unreinforced CSs presentations).</p>
+<p>fMRIprep was used for preprocessing of the functional task-evoked MRI
+data. Analysis of cerebellar task-evoked responses used the SUIT
+toolbox, including isolation of cerebellum from cerebral cortex and
+spatial normalization into atlas space. In the first level analyses, a
+general linear model was used to examine responses to the CS+ and CS-.
+The comparisons between CS+ &gt;/&lt; CS- were calculated and used for a
+second level analysis, including age and sex as covariates. The data
+from Study 1 and 2 were analyzed separately, to assess the replicability
+of our findings.</p>
+<p><strong>Results</strong>: In Study 1, there were ten significant
+clusters (uncorrected threshold p&lt;.001, cluster size threshold = 10
+voxels) in the cerebellum that shared greater response for CS+ over CS-.
+These clusters were located in Left VI, Right White, Right Crus I,
+Vermis IX, Left VIIb, Right VIIb, Vermis Crus II, Right Dentate, and two
+in Right VI. In Study 1, there were three significant clusters that
+showed a greater response for CS- over CS+. These clusters were located
+in Right V, Left VIIIb, and Right Crus II. However, in Study 2, these
+effects were not replicated, with no significant clusters in the
+cerebellum that shared a greater response for CS+ compared to CS-, or
+vice versa.</p>
+<p><strong>Conclusion</strong>: The differential responses observed in
+the cerebellum for extinction (Study 1) were consistent with our
+hypotheses. However, these differential responses were not apparent
+during re-extinction (Study 2), suggesting that these different learning
+phases may rely on different neural mechanisms. Re-extinction occurs
+after return of fear and relies on the reconsolidation of an existing
+memory trace, whereas extinction occurs after the initial fear
+acquisition and relies on the formation of a new memory trace. The
+integration of these findings with responses observed in the cerebrum
+would be a next step in improving our understanding of how these regions
+interact and support emotional learning.</p>
+<p><strong>Relevance for Patient Care</strong>: Taken together,
+understanding mechanistically how fear and emotional processing are
+influenced in a developmentally critical time point in youth with
+chronic pain could help providers better treat and care for both adults
+and children suffering from chronic pain and other disorders and
+diseases where learned fear can influence many factors such as function,
+disability, mental and physical health, and pain.</p>
 <hr />
 </div>
-<div id="stanford-bio-x-interdisciplinary-annual-symposium-2022---palo-alto-ca" class="section level3">
-<h3>Stanford Bio-X Interdisciplinary Annual Symposium 2022 - Palo Alto, CA</h3>
+<div
+id="stanford-bio-x-interdisciplinary-annual-symposium-2022---palo-alto-ca"
+class="section level3">
+<h3>Stanford Bio-X Interdisciplinary Annual Symposium 2022 - Palo Alto,
+CA</h3>
 <p><img src="pdfs/DM.jpeg" /></p>
 <hr />
 </div>
-<div id="psychological-science-annual-convention-2022---chicago-il" class="section level3">
+<div id="psychological-science-annual-convention-2022---chicago-il"
+class="section level3">
 <h3>Psychological Science Annual Convention 2022 - Chicago, IL</h3>
 <p><img src="pdfs/APS_ATM.JPEG" /></p>
-<p><strong>Background</strong>: Chronic pain is associated with widespread neuroplasticity, which may play a crucial role in maintaining the disorder. Previous research in adults has identified white matter alterations in several chronic pain types - even predicting chronification. However, these studies are lacking in youths, yet necessary to understand how structural changes in pain-related networks occur and persist into adulthood. In this study, we examined white matter microstructure in a pediatric pain population, and explored how this microstructure relates to key individual differences, namely the level of experienced disability and pain-related catastrophic thinking. We implemented the multi-compartment modeling approach neurite orientation dispersion and density imaging (NODDI), shown to be more specific to the traditional diffusion tensor imaging (DTI) approach, deriving more biologically informative indices.</p>
-<p><strong>Method</strong>: 44 youths with chronic pain (age M±SD=15.8±0.4) and 24 pain-free controls (age M±SD=16.0±0.7) took part in an MRI study, which included a multi-shell diffusion-weighted imaging protocol (b-values=1000, 2000s/mm2). NODDI was used to obtain metrics for neurite orientation and density (ODI, NDI, respectively), and DTI to obtain fractional anisotropy (FA). Group comparisons were conducted on the voxel-level and tract-profile level using tract-based spatial statistics (TBSS) and automated fiber quantification (AFQ), respectively. Tracts which showed significant group-related differences were further examined to assess the relationship between the observed microstructure and individual difference factors: the Pain Catastrophizing Scale for Children (PCS-C) was used to assess catastrophic thinking about pain, including rumination, helplessness and magnification, while the Functional Disability Inventory (FDI) was used to assess perceived difficulties in performing activities due to pain.</p>
-<p><strong>Results</strong>: Voxel-based analyses showed widespread elevated ODI in patients compared to controls in several tracts, including bilateral corona radiata, superior longitudinal fasciculus, corticospinal tract, tracts going into pre- and postcentral gyrus, and left uncinate fasciculus. Higher ODI in the cluster encompassing right posterior corona radiata/cingulum was correlated with more pain catastrophizing (r = .33, p = .03) and with more pain-related disability (r = .32, p = .04). No other correlations or group differences in NDI or FA were observed. Tract-specific profile analyses also demonstrated ODI differences between youths with chronic pain and pain-free controls in several tracts, including sections of the uncinate fasciculus, corticospinal tract and forceps minor. Additionally, increased NDI was observed in sections of anterior thalamic radiation, cingulum and corticospinal tract. Higher ODI in the uncinate fasciculi as well as higher NDI in thalamic radiation and cingulum were associated with pain catastrophizing in patients.</p>
-<p><strong>Conclusion</strong>: Overall, the analyses revealed widespread white matter microstructural differences in youth with chronic pain across tracts that have been implicated in sensory and cognitive-affective components of pain. Specifically, we observed differences in orientation dispersion, reflecting less coherence in the fiber bundles, which could be indicative of alterations or delays in axonal pruning processes, as well as increased density in several tracts, which could be indicative of increased myelination and may reflect a compensatory mechanism.</p>
+<p><strong>Background</strong>: Chronic pain is associated with
+widespread neuroplasticity, which may play a crucial role in maintaining
+the disorder. Previous research in adults has identified white matter
+alterations in several chronic pain types - even predicting
+chronification. However, these studies are lacking in youths, yet
+necessary to understand how structural changes in pain-related networks
+occur and persist into adulthood. In this study, we examined white
+matter microstructure in a pediatric pain population, and explored how
+this microstructure relates to key individual differences, namely the
+level of experienced disability and pain-related catastrophic thinking.
+We implemented the multi-compartment modeling approach neurite
+orientation dispersion and density imaging (NODDI), shown to be more
+specific to the traditional diffusion tensor imaging (DTI) approach,
+deriving more biologically informative indices.</p>
+<p><strong>Method</strong>: 44 youths with chronic pain (age
+M±SD=15.8±0.4) and 24 pain-free controls (age M±SD=16.0±0.7) took part
+in an MRI study, which included a multi-shell diffusion-weighted imaging
+protocol (b-values=1000, 2000s/mm2). NODDI was used to obtain metrics
+for neurite orientation and density (ODI, NDI, respectively), and DTI to
+obtain fractional anisotropy (FA). Group comparisons were conducted on
+the voxel-level and tract-profile level using tract-based spatial
+statistics (TBSS) and automated fiber quantification (AFQ),
+respectively. Tracts which showed significant group-related differences
+were further examined to assess the relationship between the observed
+microstructure and individual difference factors: the Pain
+Catastrophizing Scale for Children (PCS-C) was used to assess
+catastrophic thinking about pain, including rumination, helplessness and
+magnification, while the Functional Disability Inventory (FDI) was used
+to assess perceived difficulties in performing activities due to
+pain.</p>
+<p><strong>Results</strong>: Voxel-based analyses showed widespread
+elevated ODI in patients compared to controls in several tracts,
+including bilateral corona radiata, superior longitudinal fasciculus,
+corticospinal tract, tracts going into pre- and postcentral gyrus, and
+left uncinate fasciculus. Higher ODI in the cluster encompassing right
+posterior corona radiata/cingulum was correlated with more pain
+catastrophizing (r = .33, p = .03) and with more pain-related disability
+(r = .32, p = .04). No other correlations or group differences in NDI or
+FA were observed. Tract-specific profile analyses also demonstrated ODI
+differences between youths with chronic pain and pain-free controls in
+several tracts, including sections of the uncinate fasciculus,
+corticospinal tract and forceps minor. Additionally, increased NDI was
+observed in sections of anterior thalamic radiation, cingulum and
+corticospinal tract. Higher ODI in the uncinate fasciculi as well as
+higher NDI in thalamic radiation and cingulum were associated with pain
+catastrophizing in patients.</p>
+<p><strong>Conclusion</strong>: Overall, the analyses revealed
+widespread white matter microstructural differences in youth with
+chronic pain across tracts that have been implicated in sensory and
+cognitive-affective components of pain. Specifically, we observed
+differences in orientation dispersion, reflecting less coherence in the
+fiber bundles, which could be indicative of alterations or delays in
+axonal pruning processes, as well as increased density in several
+tracts, which could be indicative of increased myelination and may
+reflect a compensatory mechanism.</p>
 <hr />
 </div>
-<div id="society-for-pediatric-psychology-annual-conference-2022---pheonix-az" class="section level3">
-<h3>Society for Pediatric Psychology Annual Conference 2022 - Pheonix, AZ</h3>
+<div
+id="society-for-pediatric-psychology-annual-conference-2022---pheonix-az"
+class="section level3">
+<h3>Society for Pediatric Psychology Annual Conference 2022 - Pheonix,
+AZ</h3>
 <p><img src="pdfs/SPPAC_22.JPEG" /></p>
-<p><strong>Background</strong>: Physical activity is essential to improve daily functioning for chronic musculoskeletal (MSK) pain; however, fear of movement is a documented barrier to effective engagement in physical therapy (PT). Virtual reality (VR) as a supplemental to PT has been used as a tool to augment healthy outpatients undergoing PT. However, there is limited data analyzing the effectiveness of VR as a PT supplemental for patients with MSK pain. The current investigation compares VR guided PT to standard PT with three primary aims: (1) to evaluate physical function outcomes between VR guided PT to standard PT, (2) evaluate pain-related fear as a potential mechanism of change, (3) determine the feasibility of utilizing VR in routine PT practice. This RCT study will offer a yet to be tested advancement in VR technology, by providing new treatment solutions specifically targeted at movement facilitation by way of a nonpharmacological solution.</p>
-<p><strong>Method:</strong> Participants with a history of chronic pain are recruited from several sites (academic medical center, managed care, private practice) within California in an effort to elicit a representative diverse participant population. Ages range from 10 to 17. Active treatment includes approximately eight one-hour VR-PT or standard PT sessions. VR sessions include real time tracking of movement to inform clinical decision-making and support tailored, point of care decisions. The primary outcome is physical function, and secondary outcome is pain-related fear. Both outcomes are assessed via daily check-in surveys and questionnaires. To assess changes in objective physical activity, participants wear actigraphy watches during their treatment period. Self-report questionnaires are completed at baseline, end of treatment, and 3-month follow-up.</p>
-<p><strong>Results:</strong> Findings from our pilot feasibility trial provided sufficient promise to proceed with the current RCT. Results of the feasibility study indicate that across time, significant decreases in pain (F4,27.7=9.27, P&lt;.001), fear (F4,25.7=5.17, P=0.003), avoidance (F4,27.9=4.96, P=.004), and functional limitations (F4,25.2=4.20, P=.01).</p>
-<p><strong>Conclusion:</strong> Based on theory, previous research, and feasibility data, we expect participation in VR-PT to result in greater improvements in functioning compared to standard PT and that the magnitude of improvement will be associated with decreases in pain-related fear. Results of this study will provide key outcomes to evaluate this unique form of care and will inform whether it is advised to proceed with implementation of VR technology to address engagement in physical activity among youth with chronic MSK pain.</p>
+<p><strong>Background</strong>: Physical activity is essential to
+improve daily functioning for chronic musculoskeletal (MSK) pain;
+however, fear of movement is a documented barrier to effective
+engagement in physical therapy (PT). Virtual reality (VR) as a
+supplemental to PT has been used as a tool to augment healthy
+outpatients undergoing PT. However, there is limited data analyzing the
+effectiveness of VR as a PT supplemental for patients with MSK pain. The
+current investigation compares VR guided PT to standard PT with three
+primary aims: (1) to evaluate physical function outcomes between VR
+guided PT to standard PT, (2) evaluate pain-related fear as a potential
+mechanism of change, (3) determine the feasibility of utilizing VR in
+routine PT practice. This RCT study will offer a yet to be tested
+advancement in VR technology, by providing new treatment solutions
+specifically targeted at movement facilitation by way of a
+nonpharmacological solution.</p>
+<p><strong>Method:</strong> Participants with a history of chronic pain
+are recruited from several sites (academic medical center, managed care,
+private practice) within California in an effort to elicit a
+representative diverse participant population. Ages range from 10 to 17.
+Active treatment includes approximately eight one-hour VR-PT or standard
+PT sessions. VR sessions include real time tracking of movement to
+inform clinical decision-making and support tailored, point of care
+decisions. The primary outcome is physical function, and secondary
+outcome is pain-related fear. Both outcomes are assessed via daily
+check-in surveys and questionnaires. To assess changes in objective
+physical activity, participants wear actigraphy watches during their
+treatment period. Self-report questionnaires are completed at baseline,
+end of treatment, and 3-month follow-up.</p>
+<p><strong>Results:</strong> Findings from our pilot feasibility trial
+provided sufficient promise to proceed with the current RCT. Results of
+the feasibility study indicate that across time, significant decreases
+in pain (F4,27.7=9.27, P&lt;.001), fear (F4,25.7=5.17, P=0.003),
+avoidance (F4,27.9=4.96, P=.004), and functional limitations
+(F4,25.2=4.20, P=.01).</p>
+<p><strong>Conclusion:</strong> Based on theory, previous research, and
+feasibility data, we expect participation in VR-PT to result in greater
+improvements in functioning compared to standard PT and that the
+magnitude of improvement will be associated with decreases in
+pain-related fear. Results of this study will provide key outcomes to
+evaluate this unique form of care and will inform whether it is advised
+to proceed with implementation of VR technology to address engagement in
+physical activity among youth with chronic MSK pain.</p>
 <hr />
 </div>
-<div id="cognitive-neuroscience-society-2020---boston-ma-virtual" class="section level3">
+<div id="cognitive-neuroscience-society-2020---boston-ma-virtual"
+class="section level3">
 <h3>Cognitive Neuroscience Society 2020 - Boston, MA (Virtual)</h3>
 <p><img src="pdfs/molitor_cns_2020_final.JPEG" /></p>
-<p><strong>Background</strong>: Episodic memory is important for remembering the past and imagining novel or future events. This duality of memory is evidenced by neuroimaging work which has shown that similar brain regions are engaged during retrieval and memory-based construction of imagined events. Despite this link between retrieval and imagination, it is unclear to what extent representations of imagined events resemble representations of retrieved events.</p>
-<p><strong>Method</strong>: Here, we used fMRI pattern similarity analyses to compare neural representations of retrieved and imagined events. Participants were scanned while watching videos, remembering previously viewed videos, and imagining novel events conceptually related to the content of watched and remembered videos. We first compared representations of retrieved events to representations of corresponding encoding events (i.e., watch trials). Critically, we contrasted this index of encoding- retrieval similarity to the similarity between conceptually-related retrieval and imagination trials.</p>
-<p><strong>Results</strong>: Preliminary analyses (n = 8) revealed encoding-retrieval similarity (reinstatement) within visual cortex, but no similarity between conceptually-related imagined and retrieved events. In contrast, in frontoparietal cortices and the hippocampus there was evidence for encoding-retrieval similarity (reinstatement) as well as similarity between conceptually-related imagined and retrieved events. Furthermore, encoding-retrieval similarity was comparable to imagination-retrieval similarity in these regions, indicating that imagined and retrieved events may share high-level, abstracted information.</p>
-<p><strong>Conclusion</strong>: These results suggest that the connection between retrieval and imagination goes beyond the activation of similar brain regions within the memory network and extends to the similarity of how events are represented.</p>
+<p><strong>Background</strong>: Episodic memory is important for
+remembering the past and imagining novel or future events. This duality
+of memory is evidenced by neuroimaging work which has shown that similar
+brain regions are engaged during retrieval and memory-based construction
+of imagined events. Despite this link between retrieval and imagination,
+it is unclear to what extent representations of imagined events resemble
+representations of retrieved events.</p>
+<p><strong>Method</strong>: Here, we used fMRI pattern similarity
+analyses to compare neural representations of retrieved and imagined
+events. Participants were scanned while watching videos, remembering
+previously viewed videos, and imagining novel events conceptually
+related to the content of watched and remembered videos. We first
+compared representations of retrieved events to representations of
+corresponding encoding events (i.e., watch trials). Critically, we
+contrasted this index of encoding- retrieval similarity to the
+similarity between conceptually-related retrieval and imagination
+trials.</p>
+<p><strong>Results</strong>: Preliminary analyses (n = 8) revealed
+encoding-retrieval similarity (reinstatement) within visual cortex, but
+no similarity between conceptually-related imagined and retrieved
+events. In contrast, in frontoparietal cortices and the hippocampus
+there was evidence for encoding-retrieval similarity (reinstatement) as
+well as similarity between conceptually-related imagined and retrieved
+events. Furthermore, encoding-retrieval similarity was comparable to
+imagination-retrieval similarity in these regions, indicating that
+imagined and retrieved events may share high-level, abstracted
+information.</p>
+<p><strong>Conclusion</strong>: These results suggest that the
+connection between retrieval and imagination goes beyond the activation
+of similar brain regions within the memory network and extends to the
+similarity of how events are represented.</p>
 <hr />
 </div>
-<div id="society-for-neuroscience-2019---chicago-il" class="section level3">
+<div id="society-for-neuroscience-2019---chicago-il"
+class="section level3">
 <h3>Society for Neuroscience 2019 - Chicago, IL</h3>
 <p><img src="pdfs/sfn2019_12.JPEG" /></p>
-<p><strong>Background</strong>: When memories share overlapping features, this results in interference and, ultimately, forgetting. With practice, however, interference between overlapping memories subsides (Anderson et al., 1994; Norman et al., 2007). These learning-related reductions in interference are thought to be supported, at least in part, by differentiation of neural representations (Chanales et al., 2017; Favila et al., 2016; Hulbert and Norman, 2015). However, it remains poorly understood how overlapping memories actually change as neural representations are differentiated or, more generally, as interference subsides.</p>
-<p><strong>Method</strong>: Here, using a continuous, multidimensional feature space, we tested for learning-related changes in feature memory induced by competition. Subjects first studied and practiced remembering a set of artificially-generated face stimuli in an extended learning session. Critically, the set of learned faces included pairs of highly similar faces that only differed on a single face dimension (the diagnostic face dimension). After the learning session, participants repeatedly ‘reconstructed’ each of the faces, from memory, by manipulating randomly-generated face images along two dimensions. The two dimensions included the diagnostic dimension that discriminated the paired faces and a non-diagnostic dimension that did not discriminate the paired faces.</p>
-<p><strong>Results</strong>: We found learning induced two distinct changes in feature memory that specifically occurred for the diagnostic dimension. First, participants’ reconstructions revealed exaggerated differences between paired faces (repulsion) that were significantly stronger on the diagnostic dimension than the non-diagnostic dimension. Second, participants’ reconstructions were significantly less variable (or sharper) along the diagnostic dimension than the non-diagnostic dimension. Critically, each of these mechanisms (repulsion and sharpening) is likely to be adaptive in that it improves discriminability between competing memories. Indeed, both the repulsion and sharpening effects were stronger for faces that were better learned, suggesting that these targeted changes in feature memory play a role in interference-resolution.</p>
-<p><strong>Conclusion</strong>: Collectively, these findings provide a compelling account of how memory features change in order to reduce interference and suggest specific behavioral changes that may be related to differentiation of neural representations. Preliminary fMRI results that investigate the relationship between behavioral feature memory and neural representational changes will be discussed.</p>
+<p><strong>Background</strong>: When memories share overlapping
+features, this results in interference and, ultimately, forgetting. With
+practice, however, interference between overlapping memories subsides
+(Anderson et al., 1994; Norman et al., 2007). These learning-related
+reductions in interference are thought to be supported, at least in
+part, by differentiation of neural representations (Chanales et al.,
+2017; Favila et al., 2016; Hulbert and Norman, 2015). However, it
+remains poorly understood how overlapping memories actually change as
+neural representations are differentiated or, more generally, as
+interference subsides.</p>
+<p><strong>Method</strong>: Here, using a continuous, multidimensional
+feature space, we tested for learning-related changes in feature memory
+induced by competition. Subjects first studied and practiced remembering
+a set of artificially-generated face stimuli in an extended learning
+session. Critically, the set of learned faces included pairs of highly
+similar faces that only differed on a single face dimension (the
+diagnostic face dimension). After the learning session, participants
+repeatedly ‘reconstructed’ each of the faces, from memory, by
+manipulating randomly-generated face images along two dimensions. The
+two dimensions included the diagnostic dimension that discriminated the
+paired faces and a non-diagnostic dimension that did not discriminate
+the paired faces.</p>
+<p><strong>Results</strong>: We found learning induced two distinct
+changes in feature memory that specifically occurred for the diagnostic
+dimension. First, participants’ reconstructions revealed exaggerated
+differences between paired faces (repulsion) that were significantly
+stronger on the diagnostic dimension than the non-diagnostic dimension.
+Second, participants’ reconstructions were significantly less variable
+(or sharper) along the diagnostic dimension than the non-diagnostic
+dimension. Critically, each of these mechanisms (repulsion and
+sharpening) is likely to be adaptive in that it improves
+discriminability between competing memories. Indeed, both the repulsion
+and sharpening effects were stronger for faces that were better learned,
+suggesting that these targeted changes in feature memory play a role in
+interference-resolution.</p>
+<p><strong>Conclusion</strong>: Collectively, these findings provide a
+compelling account of how memory features change in order to reduce
+interference and suggest specific behavioral changes that may be related
+to differentiation of neural representations. Preliminary fMRI results
+that investigate the relationship between behavioral feature memory and
+neural representational changes will be discussed.</p>
 <hr />
 </div>
-<div id="cognitive-neuroscience-society-2019---san-francisco-ca" class="section level3">
+<div id="cognitive-neuroscience-society-2019---san-francisco-ca"
+class="section level3">
 <h3>Cognitive Neuroscience Society 2019 - San Francisco, CA</h3>
 <p><img src="pdfs/Tremblay-McGawEtal19_CNS_FINAL.JPEG" /></p>
-<p><strong>Background</strong>: Recent memory decisions can create lingering biases-either towards encoding or retrieval-that influence how new stimuli are processed, and, ultimately remembered (Duncan et al., 2012).</p>
-<p><strong>Method</strong>: Here, we tested whether these biases can be decoded from patterns of neural activity (Richter et al., 2016) and whether decoded evidence of memory biases predicts how new events will be remembered. In a behavioral study (n = 18), participants were first familiarized with a series of common objects. Afterwards, subjects completed a continuous recognition task that included ‘old’ and ‘new’ objects. The order of stimulus presentation was controlled such that half of the new objects were preceded by an old object and half were preceded by a new object. Following continuous recognition, participants completed a post-test that required discriminating objects from the continuous recognition task vs. perceptually similar lures.</p>
-<p><strong>Results</strong>: Critically, new objects from the critical recognition task were more likely to be subsequently remembered (at post-test) if they had been preceded by a new object than if they had been preceded by an old object. That is, memory formation for new stimuli was influenced by lingering encoding/retrieval biases from the prior trial (Duncan et al., 2012). In an EEG version of the study (n = 8), we show that (1) encoding vs. retrieval states can be decoded from spectral EEG patterns and (2) these decoding measures reflect biases induced by prior trials.</p>
-<p><strong>Conclusion</strong>: Collectively, these findings provide a critical link between behavioral and neural measures of memory biases induced by recent experience.</p>
+<p><strong>Background</strong>: Recent memory decisions can create
+lingering biases-either towards encoding or retrieval-that influence how
+new stimuli are processed, and, ultimately remembered (Duncan et al.,
+2012).</p>
+<p><strong>Method</strong>: Here, we tested whether these biases can be
+decoded from patterns of neural activity (Richter et al., 2016) and
+whether decoded evidence of memory biases predicts how new events will
+be remembered. In a behavioral study (n = 18), participants were first
+familiarized with a series of common objects. Afterwards, subjects
+completed a continuous recognition task that included ‘old’ and ‘new’
+objects. The order of stimulus presentation was controlled such that
+half of the new objects were preceded by an old object and half were
+preceded by a new object. Following continuous recognition, participants
+completed a post-test that required discriminating objects from the
+continuous recognition task vs. perceptually similar lures.</p>
+<p><strong>Results</strong>: Critically, new objects from the critical
+recognition task were more likely to be subsequently remembered (at
+post-test) if they had been preceded by a new object than if they had
+been preceded by an old object. That is, memory formation for new
+stimuli was influenced by lingering encoding/retrieval biases from the
+prior trial (Duncan et al., 2012). In an EEG version of the study (n =
+8), we show that (1) encoding vs. retrieval states can be decoded from
+spectral EEG patterns and (2) these decoding measures reflect biases
+induced by prior trials.</p>
+<p><strong>Conclusion</strong>: Collectively, these findings provide a
+critical link between behavioral and neural measures of memory biases
+induced by recent experience.</p>
 <hr />
 </div>
 <div id="psychonomics-2018---new-orleans-la" class="section level3">
 <h3>Psychonomics 2018 - New Orleans, LA</h3>
 <p><img src="pdfs/Psychonomics_Poster.JPEG" /></p>
-<p><strong>Background</strong>: Shohamy and Wagner (2008) propose that the hippocampus integrates different memory episodes that are similar, resulting in a large and linked network of mnemonic associations in the human brain. Therefore, it is important to establish if clinicians might be able to use this mnemonic process occurring during the integration of memories in a clinical setting to help patients change the way they remember traumatic events.</p>
-<p><strong>Method</strong>: We implemented a repeated measures design to assess the impact of seeing a positive version of a negative event. Sixty-three participants from the Skidmore College undergraduate population participated in a for-credit or paid experiment advertised as a study on “emotional processing”.</p>
-<p><strong>Results</strong>: While the Mood-Congruent Judgment Scale did not generate any significant results, our other dependent variables did. Most importantly, the Negative-Positive condition had more positive Likert Scale ratings compared to the Negative-Negative condition, indicating that an exposure to a positive version of a negative event can reduce the negative affect associated with the scene.</p>
-<p><strong>Conclusion</strong>: We contend that the fact that the Negative-Positive condition was significantly less accurately recalled compared to the other three conditions demonstrates that the memories of the negative and positive scene were successfully integrated, and therefore not as salient in the participants’ minds. This could have significant clinical implications and serve as a basis for the development of trauma interventions.</p>
+<p><strong>Background</strong>: Shohamy and Wagner (2008) propose that
+the hippocampus integrates different memory episodes that are similar,
+resulting in a large and linked network of mnemonic associations in the
+human brain. Therefore, it is important to establish if clinicians might
+be able to use this mnemonic process occurring during the integration of
+memories in a clinical setting to help patients change the way they
+remember traumatic events.</p>
+<p><strong>Method</strong>: We implemented a repeated measures design to
+assess the impact of seeing a positive version of a negative event.
+Sixty-three participants from the Skidmore College undergraduate
+population participated in a for-credit or paid experiment advertised as
+a study on “emotional processing”.</p>
+<p><strong>Results</strong>: While the Mood-Congruent Judgment Scale did
+not generate any significant results, our other dependent variables did.
+Most importantly, the Negative-Positive condition had more positive
+Likert Scale ratings compared to the Negative-Negative condition,
+indicating that an exposure to a positive version of a negative event
+can reduce the negative affect associated with the scene.</p>
+<p><strong>Conclusion</strong>: We contend that the fact that the
+Negative-Positive condition was significantly less accurately recalled
+compared to the other three conditions demonstrates that the memories of
+the negative and positive scene were successfully integrated, and
+therefore not as salient in the participants’ minds. This could have
+significant clinical implications and serve as a basis for the
+development of trauma interventions.</p>
 <hr />
 </div>
 

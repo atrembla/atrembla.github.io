@@ -13,8 +13,8 @@
 
 <title>Gallery</title>
 
-<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -137,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -170,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -179,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -232,7 +233,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -280,12 +281,14 @@ $(document).ready(function () {
 <p><img src="imgs/128.jpeg" /></p>
 <hr />
 </div>
-<div id="presidio-stage-1-late-nights-2023---san-francisco-ca" class="section level3">
+<div id="presidio-stage-1-late-nights-2023---san-francisco-ca"
+class="section level3">
 <h3>PReSiDio Stage 1 Late Nights 2023 - San Francisco, CA</h3>
 <p><img src="imgs/129.jpeg" /></p>
 <hr />
 </div>
-<div id="krystal-lab-crc-meeting-2023---san-francisco-ca" class="section level3">
+<div id="krystal-lab-crc-meeting-2023---san-francisco-ca"
+class="section level3">
 <h3>Krystal Lab CRC Meeting 2023 - San Francisco, CA</h3>
 <p><img src="imgs/111.jpeg" /></p>
 <hr />
@@ -295,15 +298,19 @@ $(document).ready(function () {
 <p><img src="imgs/109.jpeg" /></p>
 <hr />
 </div>
-<div id="stanford-school-of-medicine-dept-of-anesthesiology-research-awards---stanford-ca" class="section level3">
-<h3>Stanford School of Medicine, Dept of Anesthesiology Research Awards - Stanford, CA</h3>
+<div
+id="stanford-school-of-medicine-dept-of-anesthesiology-research-awards---stanford-ca"
+class="section level3">
+<h3>Stanford School of Medicine, Dept of Anesthesiology Research Awards
+- Stanford, CA</h3>
 <p><img src="imgs/105.jpeg" /></p>
 <p><img src="imgs/107.jpeg" /></p>
 <p><img src="imgs/106.jpeg" /></p>
 <p><img src="imgs/108.jpeg" /></p>
 <hr />
 </div>
-<div id="social-affective-neuroscience-society-2023---santa-barbara-ca" class="section level3">
+<div id="social-affective-neuroscience-society-2023---santa-barbara-ca"
+class="section level3">
 <h3>Social Affective Neuroscience Society 2023 - Santa Barbara, CA</h3>
 <p><img src="imgs/100.jpeg" /></p>
 <p><img src="imgs/101.jpeg" /></p>
@@ -320,7 +327,8 @@ $(document).ready(function () {
 <p><img src="imgs/90.jpeg" /></p>
 <hr />
 </div>
-<div id="volunteering-at-samaritan-house-2023---san-mateo-ca" class="section level3">
+<div id="volunteering-at-samaritan-house-2023---san-mateo-ca"
+class="section level3">
 <h3>Volunteering at Samaritan House 2023 - San Mateo, CA</h3>
 <p><img src="imgs/86.jpeg" /></p>
 <p><img src="imgs/85.jpeg" /></p>
@@ -337,19 +345,24 @@ $(document).ready(function () {
 <p><img src="imgs/83.jpeg" /></p>
 <hr />
 </div>
-<div id="día-de-los-muertos-2022---san-francisco-ca" class="section level3">
+<div id="día-de-los-muertos-2022---san-francisco-ca"
+class="section level3">
 <h3>Día de los Muertos 2022 - San Francisco, CA</h3>
 <p><img src="imgs/80.jpeg" /></p>
 <p><img src="imgs/81.jpeg" /></p>
 <hr />
 </div>
-<div id="the-ninth-annual-symposium-of-the-wu-tsai-neurosciences-institute-2022---stanford-ca" class="section level3">
-<h3>The Ninth Annual Symposium of the Wu Tsai Neurosciences Institute 2022 - Stanford, CA</h3>
+<div
+id="the-ninth-annual-symposium-of-the-wu-tsai-neurosciences-institute-2022---stanford-ca"
+class="section level3">
+<h3>The Ninth Annual Symposium of the Wu Tsai Neurosciences Institute
+2022 - Stanford, CA</h3>
 <p><img src="imgs/59.jpeg" /></p>
 <p><img src="imgs/58.jpeg" /></p>
 <hr />
 </div>
-<div id="a-growing-garden-2022---san-francisco-ca" class="section level3">
+<div id="a-growing-garden-2022---san-francisco-ca"
+class="section level3">
 <h3>A growing garden 2022 - San Francisco, CA</h3>
 <p><img src="imgs/76.jpeg" /></p>
 <p><img src="imgs/78.jpeg" /></p>
@@ -364,7 +377,8 @@ $(document).ready(function () {
 <p><img src="imgs/56.jpeg" /></p>
 <hr />
 </div>
-<div id="iasp-world-congress-on-pain-2022---toronto-canada" class="section level3">
+<div id="iasp-world-congress-on-pain-2022---toronto-canada"
+class="section level3">
 <h3>IASP World Congress on Pain 2022 - Toronto, Canada</h3>
 <p><img src="imgs/44.jpeg" /></p>
 <p><img src="imgs/79.jpeg" /></p>
@@ -380,18 +394,25 @@ $(document).ready(function () {
 <p><img src="imgs/50.jpeg" /></p>
 <hr />
 </div>
-<div id="pediatric-sedation-and-dental-sedation-symposium-2022---san-francisco-ca" class="section level3">
-<h3>Pediatric Sedation and Dental Sedation Symposium 2022 - San Francisco, CA</h3>
+<div
+id="pediatric-sedation-and-dental-sedation-symposium-2022---san-francisco-ca"
+class="section level3">
+<h3>Pediatric Sedation and Dental Sedation Symposium 2022 - San
+Francisco, CA</h3>
 <p><img src="imgs/41.jpeg" /></p>
 <hr />
 </div>
-<div id="bois-5th-birthday-2022---ocean-beach-ca" class="section level3">
+<div id="bois-5th-birthday-2022---ocean-beach-ca"
+class="section level3">
 <h3>Boi’s 5th Birthday 2022 - Ocean Beach, CA</h3>
 <p><img src="imgs/39.jpeg" /></p>
 <hr />
 </div>
-<div id="stanford-biox-interdisciplinary-annual-symposium-2022---palo-alto-ca" class="section level3">
-<h3>Stanford BioX Interdisciplinary Annual Symposium 2022 - Palo Alto, CA</h3>
+<div
+id="stanford-biox-interdisciplinary-annual-symposium-2022---palo-alto-ca"
+class="section level3">
+<h3>Stanford BioX Interdisciplinary Annual Symposium 2022 - Palo Alto,
+CA</h3>
 <p><img src="imgs/40.jpeg" /></p>
 <hr />
 </div>
@@ -401,8 +422,11 @@ $(document).ready(function () {
 <p><img src="imgs/75.jpeg" /></p>
 <hr />
 </div>
-<div id="association-for-psychological-science-annual-convention-2022---chicago-il" class="section level3">
-<h3>Association for Psychological Science Annual Convention 2022 - Chicago, IL</h3>
+<div
+id="association-for-psychological-science-annual-convention-2022---chicago-il"
+class="section level3">
+<h3>Association for Psychological Science Annual Convention 2022 -
+Chicago, IL</h3>
 <p><img src="imgs/28.jpeg" /></p>
 <p><img src="imgs/29.jpeg" /></p>
 <p><img src="imgs/30.jpeg" /></p>
@@ -416,7 +440,8 @@ $(document).ready(function () {
 <p><img src="imgs/23.jpg" /></p>
 <hr />
 </div>
-<div id="inges-baby-shower-2022---mountain-view-ca" class="section level3">
+<div id="inges-baby-shower-2022---mountain-view-ca"
+class="section level3">
 <h3>Inge’s Baby Shower 2022 - Mountain View, CA</h3>
 <p><img src="imgs/25.jpeg" /></p>
 <hr />
@@ -431,22 +456,26 @@ $(document).ready(function () {
 <p><img src="imgs/26.jpeg" /></p>
 <hr />
 </div>
-<div id="van-gogh-immerisve-yoga-2021---san-francisco-ca" class="section level3">
+<div id="van-gogh-immerisve-yoga-2021---san-francisco-ca"
+class="section level3">
 <h3>Van Gogh Immerisve Yoga 2021 - San Francisco, CA</h3>
 <p><img src="imgs/24.jpeg" /></p>
 <hr />
 </div>
-<div id="wu-tsai-neurosciences-institute-2021---palo-alto-ca" class="section level3">
+<div id="wu-tsai-neurosciences-institute-2021---palo-alto-ca"
+class="section level3">
 <h3>Wu Tsai Neurosciences Institute 2021 - Palo Alto, CA</h3>
 <p><img src="imgs/22.jpeg" /></p>
 <hr />
 </div>
-<div id="lauren-heathcotes-goodbye-party-2021---palo-alto-ca" class="section level3">
+<div id="lauren-heathcotes-goodbye-party-2021---palo-alto-ca"
+class="section level3">
 <h3>Lauren Heathcote’s Goodbye Party 2021 - Palo Alto, CA</h3>
 <p><img src="imgs/21.JPG" /></p>
 <hr />
 </div>
-<div id="stanford-university-welcome-event-2021---palo-alto-ca" class="section level3">
+<div id="stanford-university-welcome-event-2021---palo-alto-ca"
+class="section level3">
 <h3>Stanford University Welcome Event 2021 - Palo Alto, CA</h3>
 <p><img src="imgs/19.JPG" /></p>
 <p><img src="imgs/20.jpeg" /></p>
@@ -482,7 +511,8 @@ $(document).ready(function () {
 <p><img src="imgs/73.jpeg" /></p>
 <hr />
 </div>
-<div id="society-for-neuroscience-conference-2019---chicago-il" class="section level3">
+<div id="society-for-neuroscience-conference-2019---chicago-il"
+class="section level3">
 <h3>Society for Neuroscience Conference 2019 - Chicago, IL</h3>
 <p><img src="imgs/17.jpg" /></p>
 <p><img src="imgs/11.jpg" /></p>
@@ -500,12 +530,14 @@ $(document).ready(function () {
 <p><img src="imgs/10.jpg" /></p>
 <hr />
 </div>
-<div id="university-of-oregon-headshot-2019---eugene-or" class="section level3">
+<div id="university-of-oregon-headshot-2019---eugene-or"
+class="section level3">
 <h3>University of Oregon Headshot 2019 - Eugene, OR</h3>
 <p><img src="imgs/1.jpg" /></p>
 <hr />
 </div>
-<div id="publichouse-happy-hour-2019---springfield-or" class="section level3">
+<div id="publichouse-happy-hour-2019---springfield-or"
+class="section level3">
 <h3>PublicHouse Happy Hour 2019 - Springfield, OR</h3>
 <p><img src="imgs/97.jpeg" /></p>
 <hr />
@@ -515,8 +547,11 @@ $(document).ready(function () {
 <p><img src="imgs/98.jpeg" /></p>
 <hr />
 </div>
-<div id="cognitive-neuroscience-society-conference-2019---san-francisco-ca" class="section level3">
-<h3>Cognitive Neuroscience Society Conference 2019 - San Francisco, CA</h3>
+<div
+id="cognitive-neuroscience-society-conference-2019---san-francisco-ca"
+class="section level3">
+<h3>Cognitive Neuroscience Society Conference 2019 - San Francisco,
+CA</h3>
 <p><img src="imgs/2.jpg" /></p>
 <hr />
 </div>
@@ -532,7 +567,8 @@ $(document).ready(function () {
 <p><img src="imgs/118.jpg" /></p>
 <hr />
 </div>
-<div id="society-for-neuroscience-conference-2018---san-diego-ca" class="section level3">
+<div id="society-for-neuroscience-conference-2018---san-diego-ca"
+class="section level3">
 <h3>Society for Neuroscience Conference 2018 - San Diego, CA</h3>
 <p><img src="imgs/5.jpeg" /></p>
 <p><img src="imgs/6.jpeg" /></p>
@@ -541,7 +577,8 @@ $(document).ready(function () {
 <p><img src="imgs/114.jpg" /></p>
 <hr />
 </div>
-<div id="psychonomics-conference-2018---new-orleans-la" class="section level3">
+<div id="psychonomics-conference-2018---new-orleans-la"
+class="section level3">
 <h3>Psychonomics Conference 2018 - New Orleans, LA</h3>
 <p><img src="imgs/4.jpeg" /></p>
 <p><img src="imgs/7.jpeg" /></p>
@@ -552,7 +589,8 @@ $(document).ready(function () {
 <p><img src="imgs/130.jpeg" /></p>
 <hr />
 </div>
-<div id="cooking-throughout-the-years---oregon-and-california" class="section level3">
+<div id="cooking-throughout-the-years---oregon-and-california"
+class="section level3">
 <h3>Cooking Throughout the Years - Oregon and California</h3>
 <p><img src="imgs/66.jpeg" /></p>
 <p><img src="imgs/126.jpeg" /></p>
