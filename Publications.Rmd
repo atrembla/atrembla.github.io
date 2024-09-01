@@ -16,7 +16,7 @@ __Tremblay-McGaw, A.G.__, Biggs, E.E., Sokol, O., Wiseman Miner, A., Goya Arce, 
 
 __Abstract__
 
-While there are an increasing number of efforts in research methodology to address a lack of representation in research populations, the data needed to facilitate these changes and fully evaluate representation in current research is just emerging. Here we propose a small-scale, inexpensive researcher-driven method of reporting eligible population level characteristics alongside standard participant descriptors in order to generate more robust information about diversity and inclusion that allows researchers to engage and assess these dimensions. As an example, we examined differences between adolescents with chronic pain who decided to enroll in a large biomarker study and those who were eligible but decided not to enroll. Here, we focused on demographics, pain characteristics, emotional functioning, physical functioning, and caregiver profiles. We observed significant differences between our obtained research sample and our population of interest who declined to state race and ethnicity. However, the groups did not differ on any of the other variables of interest. We propose that by reporting who out of the available and eligible population decides to participate in research, readers can better assess the generalizability of findings, and we can begin to address systemic inequities and barriers in research.
+_Coming soon!_
 
 ***
 
