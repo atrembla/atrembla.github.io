@@ -47,6 +47,8 @@ Memory biases for pain-related information may contribute to the development and
 
 Timmers, I., Bruckert, L., Biggs, E.E., __Tremblay-McGaw, A.G.__, Borsook, D., Zhang, H., & Simons, L.E. (2024). Probing white matter microstructure in youth with chronic pain and its relation to catastrophizing using neurite orientation dispersion and density imaging. PAIN.
 
+![](pdfs/Timmers.JPEG)
+
 __Abstract__
 
 Chronic pain is common in young people and can have a major life impact. Despite the burden of chronic pain, mechanisms underlying chronic pain development and persistence are still poorly understood. Specifically, white matter (WM) connectivity has remained largely unexplored in pediatric chronic pain. Using diffusion-weighted imaging, this study examined WM microstructure in adolescents (age M = 15.8 years, SD = 2.8 years) with chronic pain (n = 44) compared with healthy controls (n = 24). Neurite orientation dispersion and density imaging modeling was applied, and voxel-based whole-white-matter analyses were used to obtain an overview of potential alterations in youth with chronic pain and tract-specific profile analyses to evaluate microstructural profiles of tracts of interest more closely. Our main findings are that (1) youth with chronic pain showed widespread elevated orientation dispersion compared with controls in several tracts, indicative of less coherence; (2) signs of neurite density tract-profile alterations were observed in several tracts of interest, with mainly higher density levels in patients; and (3) several WM microstructural alterations were associated with pain catastrophizing in the patient group. Implicated tracts include both those connecting cortical and limbic structures (uncinate fasciculus, cingulum, anterior thalamic radiation), which were associated with pain catastrophizing, as well as sensorimotor tracts (corticospinal tract). By identifying alterations in the biologically informative WM microstructural metrics orientation dispersion and neurite density, our findings provide important and novel mechanistic insights for understanding the pathophysiology underlying chronic pain. Taken together, the data support alterations in fiber organization as a meaningful characteristic, contributing process to the chronic pain state.
@@ -57,6 +59,8 @@ Chronic pain is common in young people and can have a major life impact. Despite
 Simons, L.E., Hess, C.W., Choate, E.S., Van Orden, A.R., __Tremblay-McGaw, A.G.__, Menendez, M., Boothroyd, D.B., Griffin, A., Parvathinathan, G., Griffin, A., Caruso, T.J., Stinson, J., Weisman, A., Liu, T., Christensen, R., & Koeppen, K., (2022). Virtual Reality Augmented Physiotherapy for Chronic Pain in Youth: Protocol for a randomized controlled trial enhanced with single case experimental design. Journal of Medical Internet Research. 11(12):e40705.
 [PDF](pdfs/SimonsEtal2022.pdf)
 
+![](pdfs/Simons.JPEG)
+
 __Abstract__
 
 Chronic musculoskeletal (MSK) pain is a prominent health concern, resulting in pain-related disability, loss of functioning and high healthcare costs. Physiotherapy rehabilitation is a gold standard treatment for improving functioning in youth with chronic MSK. However, increasing physical activity can feel unattainable for many adolescents due to pain related fear and movement avoidance. Virtual reality (VR) offers an immersive experience that can interrupt the fear-avoidance cycle and improve engagement in physiotherapy. Despite promising initial findings, data are limited and often lack the rigor required to establish VR as an evidence-based treatment for MSK pain. This trial evaluates pain rehabilitation virtual reality (PRVR) for adolescents with MSK pain. This protocol paper outlines the rationale, design, and implementation of a two-group randomized control trial (RCT) enhanced with Single Case Experimental Design (SCED). The objective of this RCT is to test this advancement in VR technology by providing new treatment solutions targeting nonpharmacological movement facilitation. Primary outcomes include physical function and engagement in VR. Secondary outcomes include pain-related fear and treatment adherence. Significant breakthroughs for treating MSK pain require mechanistically informed innovative approaches. PRVR provides exposure to progressive challenge, real-time feedback, reinforcement for movement and can include activities difficult to achieve in the real world. It has the added benefits of sustaining patient motivation and adherence while enabling clinicians to use objective benchmarks to influence progression. These findings will inform the decision of whether to proceed with a hybrid effectiveness-dissemination trial of PRVR, serving as the basis for potential large-scale implementation of PRVR.
@@ -65,6 +69,8 @@ Chronic musculoskeletal (MSK) pain is a prominent health concern, resulting in p
 
 
 Chanales, A.J.H., __Tremblay-McGaw, A.G.__, Drascher, M.L., & Kuhl, B.A. (2020). Adaptive Repulsion of Long-Term Memory Representations Is Triggered by Event Similarity. Psychological Science. 32 (5), 705-720. [PDF](pdfs/ChanalesEtal2021.pdf)
+
+![](pdfs/Kuhl.JPEG)
 
 __Abstract__
 
