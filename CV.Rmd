@@ -7,15 +7,15 @@ title: "CV"
 Updated Oct 2024 \
 [a pdf version](pdfs/ATM_CV.pdf)
 
-![](pdfs/ATM_CV1.jpeg)
-![](pdfs/ATM_CV2.jpeg)
-![](pdfs/ATM_CV3.jpeg)
-![](pdfs/ATM_CV4.jpeg)
-![](pdfs/ATM_CV5.jpeg)
-![](pdfs/ATM_CV6.jpeg)
-![](pdfs/ATM_CV7.jpeg)
-![](pdfs/ATM_CV8.jpeg)
-![](pdfs/ATM_CV9.jpeg)
+![](pdfs/ATM_CV1.JPEG)
+![](pdfs/ATM_CV2.JPEG)
+![](pdfs/ATM_CV3.JPEG)
+![](pdfs/ATM_CV4.JPEG)
+![](pdfs/ATM_CV5.JPEG)
+![](pdfs/ATM_CV6.JPEG)
+![](pdfs/ATM_CV7.JPEG)
+![](pdfs/ATM_CV8.JPEG)
+![](pdfs/ATM_CV9.JPEG)
 
 ***
 
