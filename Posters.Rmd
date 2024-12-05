@@ -6,20 +6,33 @@ title: "Posters"
 
 ### Society of Biological Psychiatry 2025 - Toronto, Canada 
 
-__Decoding Multiday Rhythms in Mood in Human Treatment-Resistant Depression.__
+__Decoding Multiday Rhythms in Mood in Human Treatment-Resistant Depression__
 
 _Coming soon!_
 
+__Introduction__: Depression is a dynamic disorder characterized by a patient’s symptoms. While other biological processes exhibit slow rhythmic fluctuations (e.g. multiday cycles modulate seizure risk in epilepsy) it is unknown whether cycles occur in depression and drive symptomatology. Using chronic intracranial recordings in individuals with treatment-resistant depression (TRD), we show the novel presence of multiday rhythms in intracranial physiology and their encoding of depressive symptoms. Uncovering these rhythms may enable forecasting depressive episodes and improving closed-loop therapies.
+
+__Methods__: Four TRD patients in the PRESIDIO trial (NCT04004169) were implanted with the Responsive Neurostimulation System (NeuroPace, Inc), each with intracranial leads sampling two of these regions: orbitofrontal cortex, amygdala, subgenual cingulate and ventral capsule/ventral striatum. Intracranial EEG (iEEG) and self-reported Visual Analog Scale of Depression (VAS-D) were sampled multiple times daily over 2-4 years. Clinical depression severity was evaluated through Montgomery-Asberg Depression Rating Scale (MADRS). Multiday rhythms in iEEG and VAS-D were quantified using Morlet wavelet analysis & their relationship dynamics modeled using phase coherence and linear decoders.
+
+__Results__: Multiday rhythms of 7-32 and 42-74 day periods were observed in iEEG across brain regions and in mood (VAS-D) (p<0.05). Neural and mood rhythms are synchronized (coherence: 0.2-0.88, p<0.05), and phase lag analysis indicates neural rhythms lead mood rhythms by 4-37 days (p<10-6). Amplitude of neural rhythms encode clinical depression severity (Pearson’s correlation: 0.41- 0.82, p<0.05).
+
+__Conclusions__: We demonstrate synchronized multiday rhythms in iEEG and mood. Amplitude of this cycling was further linked to depression severity. Forecasting models that track rhythms and predict depressive episodes may enable novel chronotherapeutic strategies.
 
 ***
 
-
 ### Society of Biological Psychiatry 2025 - Toronto, Canada 
 
-__Modulation of Intracranial Circuit Dynamics using Personalized Deep Brain Stimulation in Treatment-Resistant Depression.__
+__Modulation of Intracranial Circuit Dynamics using Personalized Deep Brain Stimulation in Treatment-Resistant Depression__
 
 _Coming soon!_
 
+__Introduction__: Personalized deep brain stimulation (DBS) has gained traction to address heterogeneity in symptoms and circuit dysfunction in treatment-resistant depression (TRD). Our study aims to identify neurophysiological biomarkers of symptom state and evaluate the effects of personalized DBS on circuit physiology.
+
+__Methods__: We analyzed data from subjects with TRD as part of a clinical trial (NCT04004169). Subjects were implanted bilaterally with stereo-EEG electrodes spanning the orbitofrontal cortex, bed nucleus of the stria terminalis (BNST), amygdala, hippocampus, subgenual cingulate (SGC), and ventral capsule. Over 10 days, we collected intracranial recordings and symptom ratings during systematic stimulation. Using an unsupervised learning framework and permutation testing (N=1000) we identified biomarkers (power spectra) of symptom state and significant neural features between pre- and post-stimulation periods.
+
+__Results__: Neurophysiological circuits of symptom severity across regions were identified in three of five individuals. Subject A, amygdala-hippocampus (RMSE=0.5); subject B, hippocampus (RMSE=0.1, non-predictive); subject C, amygdala-SGC (RMSE=0.75); subject D, HC-BNST (RMSE=0.6); subject E, hippocampus-SGC (RMSE=0.1, non-predictive). Following personalized stimulation, distinct sub-networks were altered across all participants that correlated with a decrease in symptom severity. Subject A (N=10, p<0.05); Subject B (N=15, p<0.05); Subject C (N=16, p<0.01); Subject D, (N=12, p<0.01); Subject E (N=10; p<0.05). The hippocampus was found to be a common site with altered neural activity following therapeutic stimulation across all participants.
+
+__Conclusions__: Our insights on biomarkers across limbic circuits underscore the importance of personalized biomarker assessment strategies to predict symptom state. Understanding the circuit physiology of acute therapeutic stimulation may aid in developing future algorithms for personalized, neurophysiology-guided DBS neuromodulation therapy.
 
 ***
 
@@ -34,7 +47,6 @@ __Methods__: We included N=129 (110 females and 19 males, 12 to and 18 years,  m
 __Results__: Augmented brain responses to non-painful multisensory stimulation in the rostral anterior cingulate cortex (ACC) predicted lower physical QOL in the entire sample (qFWEcluster-corrected=0.05, individual voxel pthreshold<.001). The correlation between ACC activation and lower self-reported QOL was replicated in the female group. In females, another cluster became significant in the dorsomedial prefrontal cortex (dmPFC) (qFWE=0.029). Results were not replicated in males (N=19). We ran bootstrap analyses with 5000 permutations revealing that the probability of obtaining the resulting clusters by chance was < 0.01% (for both the entire sample and for female subsample). When extracting beta values from the two significant clusters to test whether the correlation was present at an uncorrected level for the male group, we found no significant correlations (ACC: r=0.09, p=0.71; dmPFC: r=-0.09, p=0.72). No significant results were found for the association between task-evoked brain activation and psychosocial QOL. We found a non-significant negative correlation trend between Physical QOL and self-reported multisensory unpleasantness during the task across subjects (r=-0.17, p=0.056), and a significant correlation between the later and psychosocial QOL (r= -0.26, p=0.002).
 
 __Conclusions__: We found a robust association between augmented task-evoked activation in the dmPFC and rostral ACC and worse QOL for the physical health dimension in females with CMP. Lower self-reported psychosocial QOL was associated with higher unpleasantness ratings during the multisensory task. The results suggest that adolescent patients who show greater activation in affective/regulation circuits during a non-painful, unpleasant sensory task experience lower QOL in the physical dimension (related to ability to perform physical activities and the impact of physical health on their daily lives), which links physical QOL to aberrant multisensory processing via augmented responses in affect/regulation circuits in youth with CMP.
-
 
 ***
 
@@ -51,7 +63,6 @@ __Results__: When functioning (FDI) was used as a clinical endpoint, 57% (n=87) 
 __Conclusions__: We observed variation in participant classification based on the type of clinical endpoint used, and how improvement in that measure was operationalized.
 
 Recovery is a multifaceted phenomenon and individuals may show recovery trends in one domain but not another. Furthermore, participants may show overall improvements but not reach sub-threshold status. We will discuss the benefits and shortcomings of using multiple measures to capture a holistic view of recovery.
-
 
 ***
 
