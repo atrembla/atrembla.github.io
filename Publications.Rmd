@@ -1,13 +1,6 @@
 ---
 title: "Publications"
 ---
-***
-
-Hamlat, E., __Tremblay-McGaw, A.G.__, Becker, N., Astudillo Maya, D., Krystal, A., & Sellers, K., (in preparation). Best practices for clinical trials of deep brain stimulation for neuropsychiatric indications.
-
-__Abstract__
-
-_Coming soon!_
 
 ***
 
@@ -21,7 +14,7 @@ _Coming soon!_
 ***
 
 
-Allawala, A., __Tremblay-McGaw, A.G.__, Sellers, K., Khambhati, A., Astudillo Maya, D., & Krystal, A. (in preparation). An integrative approach for personalized deep brain stimulation using multimodal behavior, neurophysiological signals, and stimulation. 
+Allawala, A.*, __Tremblay-McGaw, A.G.*__, Sellers, K., Khambhati, A., Astudillo Maya, D., & Krystal, A. (in preparation). An integrative approach for personalized deep brain stimulation using multimodal behavior, neurophysiological signals, and stimulation. 
 
 __Abstract__
 
@@ -31,6 +24,24 @@ _Coming soon!_
 
 
 __Tremblay-McGaw, A.G.__, Biggs, E.E., Timmers, I., Moulton, E., & Simons, L.E. (in preparation). The role of the cerebellum in threat learning in youth with chronic pain.
+
+__Abstract__
+
+_Coming soon!_
+
+***
+
+
+Sellers, K., Sugrue, L.P., __Tremblay-McGaw, A.G.__, Becker, N., Nedelec, P., Hamlat, E., Chang, E., & Krystal, A.D. (under review). Bladder control side-effects of deep brain stimulation for major depressive disorder related to recruitment of distinct subcomponents of the anterior limb of the internal capsule.
+
+__Abstract__
+
+_Coming soon!_
+
+***
+
+
+ __Tremblay-McGaw, A.G.__, Hamlat, E., Becker, N., Astudillo Maya, D., Krystal, A., & Sellers, K., (under review). Best practices for clinical trials of deep brain stimulation for neuropsychiatric indications.
 
 __Abstract__
 
