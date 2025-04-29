@@ -24,7 +24,7 @@ __Conclusions__: We demonstrate synchronized multiday rhythms in iEEG and mood. 
 
 __Modulation of Intracranial Circuit Dynamics using Personalized Deep Brain Stimulation in Treatment-Resistant Depression__
 
-![](sobp.jpeg)
+![](pdfs/sobp.jpeg)
 
 __Introduction__: Personalized deep brain stimulation (DBS) has gained traction to address heterogeneity in symptoms and circuit dysfunction in treatment-resistant depression (TRD). Our study aims to identify neurophysiological biomarkers of symptom state and evaluate the effects of personalized DBS on circuit physiology.
 
