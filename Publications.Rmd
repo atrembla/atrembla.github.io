@@ -14,7 +14,7 @@ _Coming soon!_
 ***
 
 
-Allawala, A., __Tremblay-McGaw, A.G.__, Sellers, K., Khambhati, A., Astudillo Maya, D., & Krystal, A. (in preparation). An integrative approach for personalized deep brain stimulation using multimodal behavior, neurophysiological signals, and stimulation. 
+__Tremblay-McGaw, A.G.__, Allawala, A., Sellers, K., Khambhati, A., Astudillo Maya, D., & Krystal, A. (in preparation). An integrative approach for personalized deep brain stimulation using multimodal behavior, neurophysiological signals, and stimulation. 
 
 __Abstract__
 
@@ -98,8 +98,8 @@ Timmers, I., Bruckert, L., Biggs, E.E., __Tremblay-McGaw, A.G.__, Borsook, D., Z
 
 ![](pdfs/Timmers.JPEG)
 
-***
 
+***
 
 Simons, L.E., Hess, C.W., Choate, E.S., Van Orden, A.R., __Tremblay-McGaw, A.G.__, Menendez, M., Boothroyd, D.B., Griffin, A., Parvathinathan, G., Griffin, A., Caruso, T.J., Stinson, J., Weisman, A., Liu, T., Christensen, R., & Koeppen, K. (2022). Virtual Reality Augmented Physiotherapy for Chronic Pain in Youth: Protocol for a randomized controlled trial enhanced with single case experimental design. Journal of Medical Internet Research. 11(12):e40705.
 [PDF](pdfs/SimonsEtal2022.pdf)
