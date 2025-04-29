@@ -41,25 +41,7 @@ _Coming soon!_
 ***
 
 
- __Tremblay-McGaw, A.G.__, Hamlat, E., Becker, N., Astudillo Maya, D., Krystal, A., & Sellers, K., (under review). Best practices for clinical trials of deep brain stimulation for neuropsychiatric indications.
-
-__Abstract__
-
-_Coming soon!_
-
-***
-
-
 Sellers, K.K., Hamlat, E.J., Choi, I., Astudillo Maya, D.A., __Tremblay-McGaw, A.G.__, Mergenthaler, J., Chang, E.F., & Krystal, A.D. (under review). Sustained benefit of closed-loop deep brain stimulation for major depressive disorder.
-
-__Abstract__
-
-_Coming soon!_
-
-***
-
-
-__Tremblay-McGaw, A.G.__, Biggs, E.E., Sokol, O., Wiseman Miner, A., Goya Arce, A., & Simons, L.E. (under review). Who is being represented in research? A researcher-driven method for assessing diversity and representation in prospective research cohorts.
 
 __Abstract__
 
@@ -76,6 +58,25 @@ _Coming soon!_
 
 ***
 
+
+ __Tremblay-McGaw, A.G.__, Hamlat, E., Becker, N., Astudillo Maya, D., Krystal, A., & Sellers, K., (under review). Best practices for clinical trials of deep brain stimulation for neuropsychiatric indications.Frontiers in Human Neuroscience, Brain Imaging and Stimulation. 
+[Link](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1572972/full)
+
+![](pdfs/ATM2etal.JPEG)
+
+***
+
+__Tremblay-McGaw, A.G.__, Biggs, E.E., Sokol, O., Wiseman Miner, A., Goya Arce, A., & Simons, L.E. (2025). Who is being represented in research? A researcher-driven method for assessing diversity and representation in prospective research cohorts. Pain Medicine. [Link](https://academic.oup.com/painmedicine/advance-article-abstract/doi/10.1093/pm/pnaf037/8104054)
+
+![](pdfs/ATMetal.JPEG)
+
+***
+
+Kist, A., Alvarez, J., --Tremblay-McGaw, A.G.--, Becker, N., Allawala, A., Fan, J., Khambhati, A.N., Norbu, T., Sugrue, L., Sellers, K.K., Starr, P.A., Chang, E.F., Krystal, A.D., & Lee, A.M. (2025). Personalizing deep brain stimulation for obsessive compulsive disorder using invasive brain mapping. Brain Stimulation: Basic, Translational, and Clinical Research in Neuromodulation, 18(1), 452. Elsevier. [Link](https://www.brainstimjrnl.com/article/S1935-861X(24)00893-3/fulltext)
+
+![](pdfs/KIstetal.JPEG)
+
+***
 
 Fan, J., Woodworth, K., Murphy, K.R., Hinkley, L., Cohen, J.L., Yoshimura, J.,  Choi, J., __Tremblay-McGaw, A.G.__, Mergenthaler, J., Good, C.H., Pellionisz, P.A., Lee, A.M., Ianni, T.D., Sugrue, L.P., & Krystal, A. (2024). Thalamic low intensity focused ultrasound stimulation in treatment resistant depression. Brain Stimulation: Basic, Translational, and Clinical Research in Neuromodulation.
 [PDF](pdfs/Fanetal.pdf)
