@@ -8,7 +8,7 @@ title: "Posters"
 
 __Decoding Multiday Rhythms in Mood in Human Treatment-Resistant Depression__
 
-_Coming soon!_
+![](pdfs/sobp2.jpeg)
 
 __Introduction__: Depression is a dynamic disorder characterized by a patient’s symptoms. While other biological processes exhibit slow rhythmic fluctuations (e.g. multiday cycles modulate seizure risk in epilepsy) it is unknown whether cycles occur in depression and drive symptomatology. Using chronic intracranial recordings in individuals with treatment-resistant depression (TRD), we show the novel presence of multiday rhythms in intracranial physiology and their encoding of depressive symptoms. Uncovering these rhythms may enable forecasting depressive episodes and improving closed-loop therapies.
 
