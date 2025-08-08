@@ -7,9 +7,6 @@ title: "CV"
 Updated April 2025 \
 [a pdf version](pdfs/ATM_CV_April2025.pdf)
 
-%![](pdfs/AlexTM_CV1.JPEG)
-%![](pdfs/AlexTM_CV2.JPEG)
-
 ![](pdfs/ATM1.JPEG)
 ![](pdfs/ATM2.JPEG
 ![](pdfs/ATM3.JPEG)
