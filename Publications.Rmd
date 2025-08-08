@@ -17,7 +17,7 @@ _Coming soon!_
 ***
 
 
-__Tremblay-McGaw, A.G.__, Allawala, A., Sellers, K., Khambhati, A., Astudillo Maya, D., & Krystal, A. (in preparation). An integrative approach for personalized deep brain stimulation using multimodal behavior, neurophysiological signals, and stimulation. 
+__Tremblay-McGaw, A.G.*__, Allawala, A.*, Sellers, K., Khambhati, A., Astudillo Maya, D., & Krystal, A. (in preparation). An integrative approach for personalized deep brain stimulation using multimodal behavior, neurophysiological signals, and stimulation. 
 
 __Abstract__
 
@@ -62,7 +62,7 @@ _Coming soon!_
 ***
 
 
- __Tremblay-McGaw, A.G.__, Hamlat, E., Becker, N., Astudillo Maya, D., Krystal, A., & Sellers, K., (under review). Best practices for clinical trials of deep brain stimulation for neuropsychiatric indications.Frontiers in Human Neuroscience, Brain Imaging and Stimulation. 
+ __Tremblay-McGaw, A.G.__, Hamlat, E., Becker, N., Astudillo Maya, D., Krystal, A., & Sellers, K., (2025). Best practices for clinical trials of deep brain stimulation for neuropsychiatric indications.Frontiers in Human Neuroscience, Brain Imaging and Stimulation. 
 [Link](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1572972/full)
 
 ![](pdfs/ATM2etal.JPEG)
