@@ -44,7 +44,7 @@ _Coming soon!_
 ***
 
 
-Lee, A. Moses, Kist, A., Alvarez, J., Sellers, K. K., Khambhati, A. N., Sugrue, L. P., Reid, L. B., Kadlec, K., Fan, J. M., Allawala, A. B., Racine, C. A., Norbu, T., Astudillo, D., __Tremblay-McGaw, A.G.__, Becker, N., Alhourani, A., Starr, P. A., Chang, E. F., & Krystal, A.D. (Uunder review). Invasive Brain Mapping Identifies Personalized Therapeutic Neuromodulation Targets for Obsessive-Compulsive Disorder.
+Lee, A. Moses, Kist, A., Alvarez, J., Sellers, K. K., Khambhati, A. N., Sugrue, L. P., Reid, L. B., Kadlec, K., Fan, J. M., Allawala, A. B., Racine, C. A., Norbu, T., Astudillo, D., __Tremblay-McGaw, A.G.__, Becker, N., Alhourani, A., Starr, P. A., Chang, E. F., & Krystal, A.D. (Under review). Invasive Brain Mapping Identifies Personalized Therapeutic Neuromodulation Targets for Obsessive-Compulsive Disorder.
 [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC11957075/)
 
 ![](pdfs/Leeetal.JPEG)
@@ -60,7 +60,7 @@ Sellers, K., Sugrue, L.P., __Tremblay-McGaw, A.G.__, Becker, N., Nedelec, P., Ha
 ***
 
 
- __Tremblay-McGaw, A.G.__, Hamlat, E., Becker, N., Astudillo Maya, D., Krystal, A., & Sellers, K., (2025). Best practices for clinical trials of deep brain stimulation for neuropsychiatric indications.Frontiers in Human Neuroscience, Brain Imaging and Stimulation. 
+ __Tremblay-McGaw, A.G.__, Hamlat, E., Becker, N., Astudillo Maya, D., Krystal, A., & Sellers, K., (2025). Best practices for clinical trials of deep brain stimulation for neuropsychiatric indications. Frontiers in Human Neuroscience, Brain Imaging and Stimulation. 
 [Link](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1572972/full)
 
 ![](pdfs/ATM2etal.JPEG)
